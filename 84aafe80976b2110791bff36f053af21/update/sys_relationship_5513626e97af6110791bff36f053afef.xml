@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_relationship">
+    <sys_relationship action="INSERT_OR_UPDATE">
+        <advanced>false</advanced>
+        <apply_to/>
+        <basic_apply_to>x_848642_loaner_0_loaner_vehicle_catalog</basic_apply_to>
+        <basic_query_from>x_848642_loaner_0_vehicle_servicing</basic_query_from>
+        <insert_callback/>
+        <name>Vehicle Servicing </name>
+        <query_from/>
+        <query_with><![CDATA[(function refineQuery(current, parent) {
+
+	// Add your code here, such as current.addQuery(field, value);
+
+})(current, parent);]]></query_with>
+        <reference_field/>
+        <related_list/>
+        <simple_reference>false</simple_reference>
+        <sys_class_name>sys_relationship</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-23 18:03:57</sys_created_on>
+        <sys_id>5513626e97af6110791bff36f053afef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Vehicle Servicing </sys_name>
+        <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_848642_loaner_0">84aafe80976b2110791bff36f053af21</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory">84aafe80976b2110791bff36f053af21</sys_scope>
+        <sys_update_name>sys_relationship_5513626e97af6110791bff36f053afef</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-23 18:03:57</sys_updated_on>
+    </sys_relationship>
+    <sys_translated_text action="delete_multiple" query="documentkey=5513626e97af6110791bff36f053afef"/>
+</record_update>

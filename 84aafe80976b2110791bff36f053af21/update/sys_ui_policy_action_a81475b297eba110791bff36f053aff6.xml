@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>location</field>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-24 09:15:47</sys_created_on>
+        <sys_id>a81475b297eba110791bff36f053aff6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>location</sys_name>
+        <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_848642_loaner_0">84aafe80976b2110791bff36f053af21</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory">84aafe80976b2110791bff36f053af21</sys_scope>
+        <sys_update_name>sys_ui_policy_action_a81475b297eba110791bff36f053aff6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-24 09:15:47</sys_updated_on>
+        <table>x_848642_loaner_0_vehicle_tracker</table>
+        <ui_policy display_value="Vehicle Status is Pending Release or Out on Field">b9f32db297aba110791bff36f053af06</ui_policy>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+</record_update>

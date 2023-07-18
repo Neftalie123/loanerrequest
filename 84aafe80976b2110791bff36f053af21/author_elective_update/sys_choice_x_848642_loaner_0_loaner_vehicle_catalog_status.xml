@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="status" table="x_848642_loaner_0_loaner_vehicle_catalog" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>status</element>
+            <name>x_848642_loaner_0_loaner_vehicle_catalog</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-06-16 01:47:40</sys_created_on>
+            <sys_id>31d04388976b2110791bff36f053af2b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>status</sys_name>
+            <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_848642_loaner_0">84aafe80976b2110791bff36f053af21</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Loaner Vehicle Request and Inventory">84aafe80976b2110791bff36f053af21</sys_scope>
+            <sys_update_name>sys_choice_x_848642_loaner_0_loaner_vehicle_catalog_status</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-06-16 01:47:40</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Available</label>
+            <language>en</language>
+            <name>x_848642_loaner_0_loaner_vehicle_catalog</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-06-21 02:05:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>79c4f0bd97272110791bff36f053af7f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-06-21 02:05:06</sys_updated_on>
+            <value>available</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Maintenance</label>
+            <language>en</language>
+            <name>x_848642_loaner_0_loaner_vehicle_catalog</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-06-21 02:52:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7a8f783997672110791bff36f053af6a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-06-21 02:52:07</sys_updated_on>
+            <value>Maintenance</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Out on Field</label>
+            <language>en</language>
+            <name>x_848642_loaner_0_loaner_vehicle_catalog</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-06-21 02:52:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ba8f783997672110791bff36f053af3a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-06-21 02:52:07</sys_updated_on>
+            <value>Out on Field</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Unavailable</label>
+            <language>en</language>
+            <name>x_848642_loaner_0_loaner_vehicle_catalog</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-06-21 02:05:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>02c4f0bd97272110791bff36f053af81</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-06-21 02:05:06</sys_updated_on>
+            <value>unavailable</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Decommissioned</label>
+            <language>en</language>
+            <name>x_848642_loaner_0_loaner_vehicle_catalog</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-06-21 02:05:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8ec4f0bd97272110791bff36f053af81</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-06-21 02:05:06</sys_updated_on>
+            <value>decommissioned</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

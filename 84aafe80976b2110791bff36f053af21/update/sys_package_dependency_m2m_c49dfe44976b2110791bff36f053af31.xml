@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
+    <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
+        <dependency display_value="Product Catalog" source="com.snc.product_catalog">9ac644bc54b02110a866ac4e613131fc</dependency>
+        <min_version>1.0.0</min_version>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-16 01:33:21</sys_created_on>
+        <sys_id>c49dfe44976b2110791bff36f053af31</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_848642_loaner_0">84aafe80976b2110791bff36f053af21</sys_package>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-16 01:33:21</sys_updated_on>
+    </sys_package_dependency_m2m>
+</record_update>

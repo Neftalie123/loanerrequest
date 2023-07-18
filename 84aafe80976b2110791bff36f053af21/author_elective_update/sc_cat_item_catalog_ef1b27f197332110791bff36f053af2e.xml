@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="Request Loaner Vehicle">831ba7b197332110791bff36f053affc</sc_cat_item>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-04 01:37:27</sys_created_on>
+        <sys_id>ef1b27f197332110791bff36f053af2e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Request Loaner Vehicle</sys_name>
+        <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_848642_loaner_0">84aafe80976b2110791bff36f053af21</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory">84aafe80976b2110791bff36f053af21</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_ef1b27f197332110791bff36f053af2e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-04 01:37:27</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Loaner Vehicle Request and Inventory">84aafe80976b2110791bff36f053af21</application>
+        <file_path/>
+        <instance_id>a311cec9dbf8545cf37acac505961954</instance_id>
+        <instance_name>dev103304</instance_name>
+        <name>sc_cat_item_catalog_ef1b27f197332110791bff36f053af2e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="Request Loaner Vehicle">831ba7b197332110791bff36f053affc</sc_cat_item><sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-07-04 01:37:27</sys_created_on><sys_id>ef1b27f197332110791bff36f053af2e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Service Catalog.Request Loaner Vehicle</sys_name><sys_package display_value="Loaner Vehicle Request and Inventory" source="x_848642_loaner_0">84aafe80976b2110791bff36f053af21</sys_package><sys_policy/><sys_scope display_value="Loaner Vehicle Request and Inventory">84aafe80976b2110791bff36f053af21</sys_scope><sys_update_name>sc_cat_item_catalog_ef1b27f197332110791bff36f053af2e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-07-04 01:37:27</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>-1408652974</payload_hash>
+        <record_name>Service Catalog.Request Loaner Vehicle</record_name>
+        <reverted_from/>
+        <source>fe2cba04976b2110791bff36f053afa1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-04 01:37:27</sys_created_on>
+        <sys_id>a31b27f197332110791bff36f053af32</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1891e8c20d30000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-04 01:37:27</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>2b1b27f1b9332110e6c2591c65825031</update_guid>
+        <update_guid_history>2b1b27f1b9332110e6c2591c65825031:-1408652974</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Service Catalog.Request Loaner Vehicle">344b6bf197332110791bff36f053af62</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-04 01:38:04</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>0ed58cb9141c4f78a3482e57f5f35821</sys_id>
+        <sys_metadata>ef1b27f197332110791bff36f053af2e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Request Loaner Vehicle</sys_name>
+        <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_848642_loaner_0">84aafe80976b2110791bff36f053af21</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory">84aafe80976b2110791bff36f053af21</sys_scope>
+        <sys_scope_delete display_value="">6abaec93f15247e4b4fa6938ed2441e4</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_ef1b27f197332110791bff36f053af2e</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_ef1b27f197332110791bff36f053af2e">a31b27f197332110791bff36f053af32</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-04 01:38:04</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
