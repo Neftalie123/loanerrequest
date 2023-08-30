@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="DELETE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>false</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_848642_loaner_0_vehicle_tracker</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_848642_loaner_0_vehicle_tracker">vehicle_status=Returned to Warehouse^EQ<item display_value="Returned to Warehouse" endquery="false" field="vehicle_status" goto="false" newquery="false" operator="=" or="false" value="Returned to Warehouse"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>update vehicle status to available</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[function executeRule(current, previous /*null when async*/) {
+
+	var gr = new GlideRecord("x_848642_loaner_0_loaner_vehicle_catalog");
+gr.addQuery("sys_id", current.vehicle);
+    gr.query();
+    if (gr.next()) {
+        //set the value of the vehicle to unavailable 
+       gr.setValue('available');
+       gr.update();
+
+    }
+} (current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-01 08:30:24</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ece559c397547110791bff36f053afb0</sys_id>
+        <sys_mod_count>50</sys_mod_count>
+        <sys_name>update vehicle status to available</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_848642_loaner_0">84aafe80976b2110791bff36f053af21</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory">84aafe80976b2110791bff36f053af21</sys_scope>
+        <sys_update_name>sys_script_ece559c397547110791bff36f053afb0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-02 16:00:28</sys_updated_on>
+        <template>vehicle.status=available^EQ</template>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="DELETE" query="documentkey=ece559c397547110791bff36f053afb0"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Loaner Vehicle Request and Inventory">84aafe80976b2110791bff36f053af21</application>
+        <file_path/>
+        <instance_id>a311cec9dbf8545cf37acac505961954</instance_id>
+        <instance_name>dev103304</instance_name>
+        <name>sys_script_ece559c397547110791bff36f053afb0</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;false&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;x_848642_loaner_0_vehicle_tracker&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition table="x_848642_loaner_0_vehicle_tracker"&gt;vehicle_status=Returned to Warehouse^EQ&lt;item display_value="Returned to Warehouse" endquery="false" field="vehicle_status" goto="false" newquery="false" operator="=" or="false" value="Returned to Warehouse"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/filter_condition&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;update vehicle status to available&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[function executeRule(current, previous /*null when async*/) {
+
+	var gr = new GlideRecord("x_848642_loaner_0_loaner_vehicle_catalog");
+gr.addQuery("sys_id", current.vehicle);
+    gr.query();
+    if (gr.next()) {
+        //set the value of the vehicle to unavailable 
+       gr.setValue('available');
+       gr.update();
+
+    }
+} (current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-08-01 08:30:24&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;ece559c397547110791bff36f053afb0&lt;/sys_id&gt;&lt;sys_mod_count&gt;50&lt;/sys_mod_count&gt;&lt;sys_name&gt;update vehicle status to available&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Loaner Vehicle Request and Inventory" source="x_848642_loaner_0"&gt;84aafe80976b2110791bff36f053af21&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Loaner Vehicle Request and Inventory"&gt;84aafe80976b2110791bff36f053af21&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_ece559c397547110791bff36f053afb0&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-08-02 16:00:28&lt;/sys_updated_on&gt;&lt;template&gt;vehicle.status=available^EQ&lt;/template&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=ece559c397547110791bff36f053afb0"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-134972521</payload_hash>
+        <record_name>update vehicle status to available</record_name>
+        <reverted_from/>
+        <source>fe2cba04976b2110791bff36f053afa1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-02 16:00:28</sys_created_on>
+        <sys_id>14c6882f975cb110791bff36f053af66</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>189b6faaa820000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-02 16:00:28</sys_updated_on>
+        <type>Business Rule</type>
+        <update_guid>98c6882f0f5cb1109b6a1588e6ed2165</update_guid>
+        <update_guid_history>98c6882f0f5cb1109b6a1588e6ed2165:-134972521,b846455f7a90b110dfaa061c5b053996:1429111076,6b16819f8590b110c23707a5b98e2ccf:-1309610203,0ff5019f6890b110709bdbcbff8322eb:1429111076,a9d5c11f7490b1100287ca8fac4f6dca:-2120418319,f925c15f4190b110f4d5022a77884dfd:1429111076,4e6d24d7aa50b1103b6f8997da3a381d:-291134140,6c1da0d72350b11036a3bff639b42fd7:-851808111,befba097cb50b110962a0221607929fd:-2043242319,2cdb2c57d750b11080b7cc52ff11772b:1728552255,e4164b8b7bd87110633b1360d5809f60:-778087009,bda5074bafd871107ca8d85f60ae2375:-1799056961,7b350f4b18d87110929410b987424238:1737339958,9de4474bc9d87110c53f6b7d8b68109b:1106182907,3ec3c30b2ad871103d784c54fe16714a:1892925713,8053cbc774d8711044b0fcb957f11e51:2990767,2023cf87d9d87110506bdc4afa807149:-94818561,97d2cb87cad87110b2f583efefdc90b2:-1272131401,e1c2cf8723d871107a4ccee3e07682db:722556533,27a283c752d87110bd75eb6f07c9056f:-1329663403,c242cf8730d87110dd1978dcfae93a0f:1793852561,bb220f0710d8711032f5cd5515cb70a8:-1743451560,c580398b689471101d50120128a2ecad:1553891136,1830798b3f947110843393d15c23b7d6:-647882994,cf6d298b12947110ed061f6830d22367:765649710,679c694bef94711077da460794c8f627:-1394048334,f97c294be5947110689d546d000280aa:1448106902,06db65c775947110bdd24b8868f33690:-1703351307,523b650bd9947110d4018d8b1ff23f09:-1684834283,f3daedc7a894711011fa366f2d33113f:-815805963,b53a294755947110d31046b945ec295f:1983821111,f1d9a987169471104ccaa08e5e407b5e:1821850049,7a79698759947110fea28eea3b03cd26:-52684377,cc1865c35994711080492f3d80336dba:-1782039322,e5c62943cc9471107258b9eb374f999b:-445281336,91266543029471105954a9a4b0e9512b:-1493779951,e9e36903f1947110733e1e50a8f498cd:-1946795913,01612d8fce54711037a7f72ebde05248:143090405,bb012d4f6b547110c625ea99241fdf09:-433093941,a310a54f0b54711062c263d8d6227c3e:-2130368462,6510ed4b0c547110433f4c857ca41ed6:1181692447,34ed594bd6547110fa71e0401ac9a95d:428633924,d97d950b1a5471108acf41c844b16e3a:-1903549506,f6a81d875254711048cdb5f6ee47c051:-1537838576,f3481947cf5471106cab5d0237d9015f:-1323033586,a648d147a054711034014e4c48d23979:2139531547,cce7dd47a654711004c7688d7fd47432:1484058770,96c71947de547110161472b751d25035:-1227226422,74c65d07775471106b495cc71f8a9acd:-274890786,0046110776547110f8dcbd0f84992ab6:1854268841,fd2659c36b54711023811bac382b8acc:976898721</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-02 16:01:03</sys_created_on>
+        <sys_db_object display_value="" name="sys_script">sys_script</sys_db_object>
+        <sys_id>2196dbf9818648af886a9cf97ed863c9</sys_id>
+        <sys_metadata>ece559c397547110791bff36f053afb0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>update vehicle status to available</sys_name>
+        <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_848642_loaner_0">84aafe80976b2110791bff36f053af21</sys_package>
+        <sys_parent display_value="Vehicle Tracker">c1f1ae0e97632110791bff36f053af9c</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory">84aafe80976b2110791bff36f053af21</sys_scope>
+        <sys_scope_delete display_value="">6abaec93f15247e4b4fa6938ed2441e4</sys_scope_delete>
+        <sys_update_name>sys_script_ece559c397547110791bff36f053afb0</sys_update_name>
+        <sys_update_version display_value="sys_script_ece559c397547110791bff36f053afb0">14c6882f975cb110791bff36f053af66</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-02 16:01:03</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

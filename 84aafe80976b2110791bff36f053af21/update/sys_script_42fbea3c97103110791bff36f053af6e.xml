@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_848642_loaner_0_vehicle_tracker</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_848642_loaner_0_vehicle_tracker">vehicle_statusCHANGESTOSent for Servicing^EQ<item display_value="Sent for Servicing" endquery="false" field="vehicle_status" goto="false" newquery="false" operator="CHANGESTO" or="false" value="Sent for Servicing"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Create Vehicle Servicing Ticket</name>
+        <order>200</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+
+    // Search for existing ticket associated to the current tracker record open
+    var vehService = new GlideRecord('x_848642_loaner_0_vehicle_servicing');
+    vehService.addQuery('vehicle_tracker', current.sys_id);
+    vehService.addQuery('tracker_status', 'Open');
+    vehService.query();
+	if (!vehService.next()) {
+        // create new ticket if not found
+        var createticket = new GlideRecord('x_848642_loaner_0_vehicle_servicing');
+
+        // Current date service ticket was opened
+        var gd = new GlideDate();
+        // populate required
+        createticket.initialize();
+        createticket.setValue('vehicle_tracker', current.sys_id);
+        createticket.setValue('u_reference_2', current.vehicle);
+        createticket.setValue('u_choice_3', 'In Service');
+        createticket.setValue('date_sent_for_servicing', gd.getValue());
+        createticket.setValue('ticket_status', 'Open');
+        createticket.insert();
+    }
+
+})(current, previous);
+]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-25 15:01:07</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>42fbea3c97103110791bff36f053af6e</sys_id>
+        <sys_mod_count>26</sys_mod_count>
+        <sys_name>Create Vehicle Servicing Ticket</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_848642_loaner_0">84aafe80976b2110791bff36f053af21</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory">84aafe80976b2110791bff36f053af21</sys_scope>
+        <sys_update_name>sys_script_42fbea3c97103110791bff36f053af6e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-06 12:19:07</sys_updated_on>
+        <template/>
+        <when>after</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=42fbea3c97103110791bff36f053af6e"/>
+</record_update>

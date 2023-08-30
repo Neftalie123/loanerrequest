@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_column">
+    <sp_column action="DELETE">
+        <class_name/>
+        <order>1</order>
+        <size>4</size>
+        <size_lg/>
+        <size_sm/>
+        <size_xs/>
+        <sp_row display_value="1">d76fcb5497907110791bff36f053af91</sp_row>
+        <sys_class_name>sp_column</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-24 04:16:58</sys_created_on>
+        <sys_id>db6f4b9497907110791bff36f053af88</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>1</sys_name>
+        <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_848642_loaner_0">84aafe80976b2110791bff36f053af21</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory">84aafe80976b2110791bff36f053af21</sys_scope>
+        <sys_update_name>sp_column_db6f4b9497907110791bff36f053af88</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-24 05:53:59</sys_updated_on>
+    </sp_column>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Loaner Vehicle Request and Inventory">84aafe80976b2110791bff36f053af21</application>
+        <file_path/>
+        <instance_id>a311cec9dbf8545cf37acac505961954</instance_id>
+        <instance_name>dev103304</instance_name>
+        <name>sp_column_db6f4b9497907110791bff36f053af88</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_column"><sp_column action="INSERT_OR_UPDATE"><class_name/><order>1</order><size>4</size><size_lg/><size_sm/><size_xs/><sp_row display_value="1">d76fcb5497907110791bff36f053af91</sp_row><sys_class_name>sp_column</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-07-24 04:16:58</sys_created_on><sys_id>db6f4b9497907110791bff36f053af88</sys_id><sys_mod_count>2</sys_mod_count><sys_name>1</sys_name><sys_package display_value="Loaner Vehicle Request and Inventory" source="x_848642_loaner_0">84aafe80976b2110791bff36f053af21</sys_package><sys_policy/><sys_scope display_value="Loaner Vehicle Request and Inventory">84aafe80976b2110791bff36f053af21</sys_scope><sys_update_name>sp_column_db6f4b9497907110791bff36f053af88</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-07-24 05:53:59</sys_updated_on></sp_column></record_update>]]></payload>
+        <payload_hash>1040935872</payload_hash>
+        <record_name>1</record_name>
+        <reverted_from/>
+        <source>fe2cba04976b2110791bff36f053afa1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-24 05:53:59</sys_created_on>
+        <sys_id>a0a5ebd897d07110791bff36f053af5c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18986762fc60000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-24 05:53:59</sys_updated_on>
+        <type>Column</type>
+        <update_guid>a8a5ebd8b2d071102595fa3aa4edc65b</update_guid>
+        <update_guid_history>a8a5ebd8b2d071102595fa3aa4edc65b:1040935872,bf95abd8c9d07110161f2bdfcf91f2ff:-1000442302,1f6f4b947c90711010d28281873e6689:1253146820</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="1">9aa5ebd897d07110791bff36f053afaa</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-24 05:54:06</sys_created_on>
+        <sys_db_object display_value="" name="sp_column">sp_column</sys_db_object>
+        <sys_id>02c254ce0e0f4ee8802a32092393f990</sys_id>
+        <sys_metadata>db6f4b9497907110791bff36f053af88</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1</sys_name>
+        <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_848642_loaner_0">84aafe80976b2110791bff36f053af21</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory">84aafe80976b2110791bff36f053af21</sys_scope>
+        <sys_scope_delete display_value="">6abaec93f15247e4b4fa6938ed2441e4</sys_scope_delete>
+        <sys_update_name>sp_column_db6f4b9497907110791bff36f053af88</sys_update_name>
+        <sys_update_version display_value="sp_column_db6f4b9497907110791bff36f053af88">a0a5ebd897d07110791bff36f053af5c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-24 05:54:06</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

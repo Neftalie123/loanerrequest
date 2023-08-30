@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_carousel_slide">
+    <sp_carousel_slide action="INSERT_OR_UPDATE">
+        <background>9ee5db1c97907110791bff36f053af08</background>
+        <carousel/>
+        <name/>
+        <order>100</order>
+        <sys_class_name>sp_carousel_slide</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-24 04:45:00</sys_created_on>
+        <sys_id>6dd5df9897907110791bff36f053afa5</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_848642_loaner_0">84aafe80976b2110791bff36f053af21</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory">84aafe80976b2110791bff36f053af21</sys_scope>
+        <sys_update_name>sp_carousel_slide_6dd5df9897907110791bff36f053afa5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-24 04:45:24</sys_updated_on>
+        <url/>
+    </sp_carousel_slide>
+    <sys_translated_text action="delete_multiple" query="documentkey=6dd5df9897907110791bff36f053afa5"/>
+</record_update>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_carousel">
+    <sp_instance_carousel action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <interval>5000</interval>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">9ef2811097583110791bff36f053af76</sp_column>
+        <sp_widget display_value="Carousel">cf1a5153cb21020000f8d856634c9c3c</sp_widget>
+        <sys_class_name>sp_instance_carousel</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-23 18:36:39</sys_created_on>
+        <sys_id>be9a855897983110791bff36f053afed</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_848642_loaner_0">84aafe80976b2110791bff36f053af21</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory">84aafe80976b2110791bff36f053af21</sys_scope>
+        <sys_update_name>sp_instance_carousel_be9a855897983110791bff36f053afed</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-24 02:31:31</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance_carousel>
+    <sys_translated_text action="DELETE" query="documentkey=be9a855897983110791bff36f053afed"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Loaner Vehicle Request and Inventory">84aafe80976b2110791bff36f053af21</application>
+        <file_path/>
+        <instance_id>a311cec9dbf8545cf37acac505961954</instance_id>
+        <instance_name>dev103304</instance_name>
+        <name>sp_instance_carousel_be9a855897983110791bff36f053afed</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_carousel"><sp_instance_carousel action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><glyph/><id/><interval>5000</interval><order>1</order><roles/><short_description/><size>md</size><sp_column display_value="1">9ef2811097583110791bff36f053af76</sp_column><sp_widget display_value="Carousel">cf1a5153cb21020000f8d856634c9c3c</sp_widget><sys_class_name>sp_instance_carousel</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-07-23 18:36:39</sys_created_on><sys_id>be9a855897983110791bff36f053afed</sys_id><sys_mod_count>12</sys_mod_count><sys_name/><sys_package display_value="Loaner Vehicle Request and Inventory" source="x_848642_loaner_0">84aafe80976b2110791bff36f053af21</sys_package><sys_policy/><sys_scope display_value="Loaner Vehicle Request and Inventory">84aafe80976b2110791bff36f053af21</sys_scope><sys_update_name>sp_instance_carousel_be9a855897983110791bff36f053afed</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-07-24 02:31:31</sys_updated_on><title/><url/><widget_parameters/></sp_instance_carousel><sys_translated_text action="delete_multiple" query="documentkey=be9a855897983110791bff36f053afed"/></record_update>]]></payload>
+        <payload_hash>-1025873833</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>fe2cba04976b2110791bff36f053afa1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-24 02:31:31</sys_created_on>
+        <sys_id>7a477e9c97107110791bff36f053af77</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18985bcd2600000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-24 02:31:31</sys_updated_on>
+        <type>Instance of Carousel</type>
+        <update_guid>72477e9c89107110f20119fb8c6d1f77</update_guid>
+        <update_guid_history>72477e9c89107110f20119fb8c6d1f77:-1025873833,a976729cb8107110619653d716d1d235:-1760290152,af56361c5d1071107648965c2cd05e31:1800260825,6eac61d8121c3110cbc80c40d9e9a555:-1760290152,951a6918511c3110dd7144bf60452aa0:-1025873833,ab0a2918171c31109e95541576f8af39:-1760290152,97a9e118c91c3110a894bcdb54e5738d:-1025873833,f299a1188a1c31107bb931ee637514aa:-1760290152,5ecb05d84a9831107dac541ac08793e9:-1025873833,fcbbcdd8ba983110ffc91f4c2dab6561:-1760290152,afabcdd838983110d4f2aaa0cf441d2f:-1025873833,ab9b89d87c9831103a23be4cf851f8f8:-1760290152,7e9a8558f99831104338fe08f89d64ef:-1025873833</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">ad9bbe9097507110791bff36f053afbd</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-24 02:50:16</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_carousel">sp_instance_carousel</sys_db_object>
+        <sys_id>50370c6c0fec4e849a6511fbb8448810</sys_id>
+        <sys_metadata>be9a855897983110791bff36f053afed</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_848642_loaner_0">84aafe80976b2110791bff36f053af21</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory">84aafe80976b2110791bff36f053af21</sys_scope>
+        <sys_scope_delete display_value="">6abaec93f15247e4b4fa6938ed2441e4</sys_scope_delete>
+        <sys_update_name>sp_instance_carousel_be9a855897983110791bff36f053afed</sys_update_name>
+        <sys_update_version display_value="sp_instance_carousel_be9a855897983110791bff36f053afed">7a477e9c97107110791bff36f053af77</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-24 02:50:16</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

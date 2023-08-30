@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_css">
+    <sp_css action="INSERT_OR_UPDATE">
+        <css>/*VEHICLE TRACKER BRAND COLORS*/&#13;
+$brand-primary:#18CAE5;&#13;
+$brand-secondary: #E35737;&#13;
+$brand-BrandWhite:#10879A;&#13;
+$brand-BrandBlack:#00000;&#13;
+&#13;
+/* ElEMENT SPECIFIC CSS*/&#13;
+$sp-tagline-color:#ffffff;&#13;
+$navbar-inverse-bg:#9dd1f4; &#13;
+$navbar_background-color:#18CAE5; !default&#13;
+$sp-navbar-divider-color:#E35737; &#13;
+$navbar-inverse-link-color:#E35737;&#13;
+$navbar-inverse-link-hover-color:#ffffff;&#13;
+$body-bg:#fff;&#13;
+$panel-bg:#E35737;</css>
+        <name>css for vehicle tracker </name>
+        <sys_class_name>sp_css</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-24 17:00:51</sys_created_on>
+        <sys_id>d62e3528971c7110791bff36f053af4d</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>css for vehicle tracker </sys_name>
+        <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_848642_loaner_0">84aafe80976b2110791bff36f053af21</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory">84aafe80976b2110791bff36f053af21</sys_scope>
+        <sys_update_name>sp_css_d62e3528971c7110791bff36f053af4d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-04 13:02:57</sys_updated_on>
+    </sp_css>
+</record_update>

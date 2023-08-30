@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_embedded_tour_step">
+    <sys_embedded_tour_step action="INSERT_OR_UPDATE">
+        <action>true</action>
+        <action_event>click</action_event>
+        <action_target/>
+        <action_target_ref display_value="xpath">8ba1f29297503110791bff36f053afca</action_target_ref>
+        <active>true</active>
+        <content><![CDATA[Select here]]></content>
+        <guide display_value="How to make a request">bcf0b65297503110791bff36f053af79</guide>
+        <implicit>true</implicit>
+        <link/>
+        <name/>
+        <options>{"url":"/vr?id=copy_of_index_1"}</options>
+        <order>1</order>
+        <placement>left</placement>
+        <skippable>false</skippable>
+        <step_type>step</step_type>
+        <sys_class_name>sys_embedded_tour_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-30 07:14:49</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>cfa1fad297503110791bff36f053af12</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_848642_loaner_0">84aafe80976b2110791bff36f053af21</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory">84aafe80976b2110791bff36f053af21</sys_scope>
+        <sys_update_name>sys_embedded_tour_step_cfa1fad297503110791bff36f053af12</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-30 07:14:49</sys_updated_on>
+        <target/>
+        <target_ref display_value="xpath">8ba1f29297503110791bff36f053afca</target_ref>
+        <title/>
+        <ui_version>dynamic</ui_version>
+        <view/>
+        <window>vr</window>
+    </sys_embedded_tour_step>
+    <sys_translated_text action="delete_multiple" query="documentkey=cfa1fad297503110791bff36f053af12"/>
+</record_update>

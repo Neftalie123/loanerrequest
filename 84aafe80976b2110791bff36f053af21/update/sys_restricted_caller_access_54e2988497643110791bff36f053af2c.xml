@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_restricted_caller_access">
+    <sys_restricted_caller_access action="INSERT_OR_UPDATE">
+        <description/>
+        <operation>read</operation>
+        <rca_type>real_rca</rca_type>
+        <source>5001b062d7101200b0b044580e6103eb</source>
+        <source_scope display_value="Global">global</source_scope>
+        <source_table>sp_widget</source_table>
+        <source_type>6</source_type>
+        <status>2</status>
+        <sys_class_name>sys_restricted_caller_access</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-04 06:10:24</sys_created_on>
+        <sys_id>54e2988497643110791bff36f053af2c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>global</sys_name>
+        <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_848642_loaner_0">84aafe80976b2110791bff36f053af21</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory">84aafe80976b2110791bff36f053af21</sys_scope>
+        <sys_update_name>sys_restricted_caller_access_54e2988497643110791bff36f053af2c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-04 06:10:24</sys_updated_on>
+        <target name="x_848642_loaner_0_loaner_vehicle_catalog" target_table="sys_db_object">d1b2607d97e32110791bff36f053af93</target>
+        <target_scope display_value="Loaner Vehicle Request and Inventory">84aafe80976b2110791bff36f053af21</target_scope>
+        <target_table>sys_db_object</target_table>
+        <target_type>1</target_type>
+    </sys_restricted_caller_access>
+</record_update>

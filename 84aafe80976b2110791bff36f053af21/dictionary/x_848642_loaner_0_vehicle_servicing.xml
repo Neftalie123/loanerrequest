@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Vehicle Servicing " max_length="40" name="x_848642_loaner_0_vehicle_servicing" sizeclass="0" type="collection">
+    <element label="Vehicle Servicing " max_length="40" name="x_848642_loaner_0_vehicle_servicing" sizeclass="3" type="collection">
         <element label="Date sent for Servicing" mandatory="true" max_length="255" name="date_sent_for_servicing" type="glide_date"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element choice="1" label="Ticket Status" mandatory="true" max_length="40" name="ticket_status" type="choice">
@@ -16,7 +16,7 @@
             </choice>
         </element>
         <element attributes="encode_utf8=false" label="Vehicle Tracker" mandatory="true" max_length="32" name="u_reference_1" reference="x_848642_loaner_0_vehicle_tracker" reference_floats="true" type="reference"/>
-        <element attributes="encode_utf8=false" label="Vehicle" mandatory="true" max_length="32" name="u_reference_2" reference="x_848642_loaner_0_vehicle_catalog_table" type="reference"/>
+        <element attributes="encode_utf8=false" label="Vehicle" mandatory="true" max_length="32" name="u_reference_2" reference="x_848642_loaner_0_loaner_vehicle_catalog" type="reference"/>
         <element label="Vehicle Issues" mandatory="true" max_length="1000" name="vehicle_issues" type="string"/>
         <element label="Vehicle Tracker " mandatory="true" max_length="32" name="vehicle_tracker" reference="x_848642_loaner_0_vehicle_tracker" type="reference"/>
         <element label="Work Performed" mandatory="true" max_length="1000" name="work_performed" type="string"/>

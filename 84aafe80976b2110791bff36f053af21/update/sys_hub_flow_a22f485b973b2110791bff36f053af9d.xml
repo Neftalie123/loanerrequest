@@ -10,7 +10,7 @@
         <copied_from_name/>
         <description>Once the request is submitted, we would like to automate the creation of a vehicle tracker as well as all activities associated with the request process such as approval and delivery. The flow should be triggered when the Service Catalog is submitted. A Vehicle Tracker containing information from the catalog item is automatically created. An approval to the Loaner Vehicle Approver group is attached to the RITM ticket. Once at least one approver approves, a Delivery task is then created and assigned to the Vehicle Delivery Group.  Once the delivery task is closed the RITM ticket needs to be closed</description>
         <internal_name>request_loaner_vehicle_flow</internal_name>
-        <label_cache>[{"name":"1d73e316-3f38-45cc-bc8e-0d0424a68b23.__dont_treat_as_error__","label":"7 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1d73e316-3f38-45cc-bc8e-0d0424a68b23.__action_status__","label":"7 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1d73e316-3f38-45cc-bc8e-0d0424a68b23.table_name","label":"7 - Update Record➛Vehicle Tracker Table","reference":"x_848642_loaner_0_vehicle_tracker","reference_display":"Vehicle Tracker","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1d73e316-3f38-45cc-bc8e-0d0424a68b23.record","label":"7 - Update Record➛Vehicle Tracker Record","reference":"x_848642_loaner_0_vehicle_tracker","reference_display":"Vehicle Tracker","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"aa2da51c-bb07-4cb6-86e7-f7b77db71314.select_the_vehicle_that_you_need.sys_mod_count","label":"1➛select_the_vehicle_that_you_need➛Updates","reference":"","reference_display":"Updates","type":"integer","base_type":"integer","parent_table_name":"x_848642_loaner_0_loaner_vehicle_catalog","column_name":"sys_mod_count"},{"name":"21935eda-1e2a-4bb7-9a2a-742feb74f942.__dont_treat_as_error__","label":"10 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"21935eda-1e2a-4bb7-9a2a-742feb74f942.__action_status__","label":"10 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"21935eda-1e2a-4bb7-9a2a-742feb74f942.table_name","label":"10 - Update Record➛Vehicle Tracker Table","reference":"x_848642_loaner_0_vehicle_tracker","reference_display":"Vehicle Tracker","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"21935eda-1e2a-4bb7-9a2a-742feb74f942.record","label":"10 - Update Record➛Vehicle Tracker Record","reference":"x_848642_loaner_0_vehicle_tracker","reference_display":"Vehicle Tracker","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"96d60166-432a-41f3-b213-5b229d42f35b.__dont_treat_as_error__","label":"9 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"96d60166-432a-41f3-b213-5b229d42f35b.__action_status__","label":"9 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"96d60166-432a-41f3-b213-5b229d42f35b.table_name","label":"9 - Update Record➛Requested Item Table","reference":"sc_req_item","reference_display":"Requested Item","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"96d60166-432a-41f3-b213-5b229d42f35b.record","label":"9 - Update Record➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a560d375-6638-4e57-a122-eac17de20e4f.__dont_treat_as_error__","label":"7 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"a560d375-6638-4e57-a122-eac17de20e4f.__action_status__","label":"7 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"a560d375-6638-4e57-a122-eac17de20e4f.table_name","label":"7 - Update Record➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a560d375-6638-4e57-a122-eac17de20e4f.record","label":"7 - Update Record➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"96896df2-aa5f-48d9-8ef3-f124089ad5b8.table_name","label":"7 - Make a decision➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{}},{"name":"96896df2-aa5f-48d9-8ef3-f124089ad5b8.answer","label":"7 - Make a decision➛Answer","reference_display":"Answer","type":"document_id","base_type":"document_id","attributes":{}},{"name":"bd7cfef8-c3fe-499d-8c9d-d44249a76ce7.record.group.name","label":"2 - Create Record➛Vehicle Tracker Record➛Group➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user_group","column_name":"name"},{"name":"Service Catalog_1.request_item.delivery_task","label":"Trigger - Service Catalog➛Requested Item Record➛Delivery task","reference":"sc_cat_item_delivery_task","reference_display":"Execution Plan Task","type":"reference","base_type":"reference","parent_table_name":"sc_req_item","column_name":"delivery_task"},{"name":"bd7cfef8-c3fe-499d-8c9d-d44249a76ce7.record.group","label":"2 - Create Record➛Vehicle Tracker Record➛Group","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","parent_table_name":"sys_user_grmember","column_name":"group"},{"name":"bffe4417-126b-4553-80bb-6bb111058ccf.__dont_treat_as_error__","label":"5 - Create Catalog Task➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"bffe4417-126b-4553-80bb-6bb111058ccf.__action_status__","label":"5 - Create Catalog Task➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"bffe4417-126b-4553-80bb-6bb111058ccf.Catalog Task","label":"5 - Create Catalog Task➛Catalog Task","reference":"sc_task","reference_display":"Catalog Task","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Service Catalog_1.run_start_date_time","label":"Trigger - Service Catalog➛Run Start Date/Time","type":"glide_date_time","base_type":"glide_date_time","attributes":{"test_input_hidden":"true"}},{"name":"Service Catalog_1.request_item","label":"Trigger - Service Catalog➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"default_search_field":"number"}},{"name":"611ee8b3-663e-41f0-9419-2ead31a2398e.__dont_treat_as_error__","label":"1 - Ask For Approval➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"611ee8b3-663e-41f0-9419-2ead31a2398e.__action_status__","label":"1 - Ask For Approval➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"611ee8b3-663e-41f0-9419-2ead31a2398e.approval_state","label":"1 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"be6bb51b-e097-4067-88f1-9063f39444b9.status","label":"1 - Submit Catalog Item Request➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Success","value":"0","order":0.0},{"label":"Error","value":"1","order":1.0},{"label":"Timeout","value":"2","order":2.0}],"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"eacb2914-9214-441b-ac02-5703c4d8b6ee"}},{"name":"be6bb51b-e097-4067-88f1-9063f39444b9.requested_item","label":"1 - Submit Catalog Item Request➛Requested Item","reference":"sc_req_item","reference_display":"Requested Item","type":"document_id","base_type":"document_id","attributes":{"uiType":"document_id","uiTypeLabel":"Document ID","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"aad3452b-309c-469c-9797-4df9ef6f86be"}},{"name":"be6bb51b-e097-4067-88f1-9063f39444b9.error_message","label":"1 - Submit Catalog Item Request➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"7cf3e70c-55c1-42c4-811a-c6b7ec1692b9"}},{"name":"be6bb51b-e097-4067-88f1-9063f39444b9.__action_status__","label":"1 - Submit Catalog Item Request➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"be6bb51b-e097-4067-88f1-9063f39444b9.__dont_treat_as_error__","label":"1 - Submit Catalog Item Request➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"aa2da51c-bb07-4cb6-86e7-f7b77db71314.requested_for","label":"1 - Get Catalog Variables➛requested_for","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","attributes":{"catalogType":"31","catalogTypeLabel":"Requested For"}},{"name":"aa2da51c-bb07-4cb6-86e7-f7b77db71314.select_the_vehicle_that_you_need","label":"1 - Get Catalog Variables➛select_the_vehicle_that_you_need","reference":"x_848642_loaner_0_loaner_vehicle_catalog","reference_display":"Loaner Vehicle Catalog","type":"reference","base_type":"reference","attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}},{"name":"aa2da51c-bb07-4cb6-86e7-f7b77db71314.date_needed","label":"1 - Get Catalog Variables➛date_needed","reference":"","reference_display":"date_needed","type":"glide_date","base_type":"glide_date","attributes":{"catalogType":"9","catalogTypeLabel":"Date"}},{"name":"aa2da51c-bb07-4cb6-86e7-f7b77db71314.date_to_return","label":"1 - Get Catalog Variables➛date_to_return","reference":"","reference_display":"date_to_return","type":"glide_date","base_type":"glide_date","attributes":{"catalogType":"9","catalogTypeLabel":"Date"}},{"name":"aa2da51c-bb07-4cb6-86e7-f7b77db71314.office_location","label":"1 - Get Catalog Variables➛office_location","reference":"cmn_location","reference_display":"Location","type":"reference","base_type":"reference","attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}},{"name":"aa2da51c-bb07-4cb6-86e7-f7b77db71314.delivery_information","label":"1 - Get Catalog Variables➛delivery_information","reference":"","reference_display":"delivery_information","type":"multi_small","base_type":"multi_small","attributes":{"catalogType":"2","catalogTypeLabel":"Multi Line Text"}},{"name":"aa2da51c-bb07-4cb6-86e7-f7b77db71314.additional_comments","label":"1 - Get Catalog Variables➛additional_comments","reference":"","reference_display":"additional_comments","type":"multi_small","base_type":"multi_small","attributes":{"catalogType":"2","catalogTypeLabel":"Multi Line Text"}},{"name":"ab4093f3-4377-4d6a-8efd-b8040b8fc768.approval_state","label":"3 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ab4093f3-4377-4d6a-8efd-b8040b8fc768.__action_status__","label":"3 - Ask For Approval➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ab4093f3-4377-4d6a-8efd-b8040b8fc768.__dont_treat_as_error__","label":"3 - Ask For Approval➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"{{static.3413364f97f32110791bff36f053afaa}}","label":"Loaner Vehicle Approvers  - Service Catalog","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference"},{"name":"ef99eaf6-7532-4b57-b995-29bd7c9294a7.record","label":"5 - Create Record➛Group Member Record","reference":"sys_user_grmember","reference_display":"Group Member","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ef99eaf6-7532-4b57-b995-29bd7c9294a7.table_name","label":"5 - Create Record➛Group Member Table","reference":"sys_user_grmember","reference_display":"Group Member","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ef99eaf6-7532-4b57-b995-29bd7c9294a7.__action_status__","label":"5 - Create Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ef99eaf6-7532-4b57-b995-29bd7c9294a7.__dont_treat_as_error__","label":"5 - Create Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"bd7cfef8-c3fe-499d-8c9d-d44249a76ce7.record","label":"2 - Create Record➛Vehicle Tracker Record","reference":"x_848642_loaner_0_vehicle_tracker","reference_display":"Vehicle Tracker","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"bd7cfef8-c3fe-499d-8c9d-d44249a76ce7.table_name","label":"2 - Create Record➛Vehicle Tracker Table","reference":"x_848642_loaner_0_vehicle_tracker","reference_display":"Vehicle Tracker","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"bd7cfef8-c3fe-499d-8c9d-d44249a76ce7.__action_status__","label":"2 - Create Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"bd7cfef8-c3fe-499d-8c9d-d44249a76ce7.__dont_treat_as_error__","label":"2 - Create Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"5c44d03c-63a4-4518-ada9-b5572214b5e3.record","label":"6 - Update Record➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"5c44d03c-63a4-4518-ada9-b5572214b5e3.table_name","label":"6 - Update Record➛Requested Item Table","reference":"sc_req_item","reference_display":"Requested Item","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"5c44d03c-63a4-4518-ada9-b5572214b5e3.__action_status__","label":"6 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"5c44d03c-63a4-4518-ada9-b5572214b5e3.__dont_treat_as_error__","label":"6 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"630a759f-d4b2-4fec-8719-04ad875b826b.record","label":"8 - Update Record➛User Record","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"630a759f-d4b2-4fec-8719-04ad875b826b.table_name","label":"8 - Update Record➛User Table","reference":"sys_user","reference_display":"User","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"630a759f-d4b2-4fec-8719-04ad875b826b.__action_status__","label":"8 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"630a759f-d4b2-4fec-8719-04ad875b826b.__dont_treat_as_error__","label":"8 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"aa2da51c-bb07-4cb6-86e7-f7b77db71314.select_the_vehicle_that_you_need.status","label":"1➛select_the_vehicle_that_you_need➛Status","reference":"","reference_display":"Status","type":"choice","base_type":"choice","parent_table_name":"x_848642_loaner_0_loaner_vehicle_catalog","column_name":"status","choices":[{"label":"-- None --","used":false,"image":"","missing":false,"selected":false,"reference":false,"rawLabel":"-- None --","value":""},{"used":false,"image":"","missing":false,"label":"Available","selected":false,"reference":false,"rawLabel":"Available","value":"available","parameters":{"name":"x_848642_loaner_0_loaner_vehicle_catalog"}},{"used":false,"image":"","missing":false,"label":"Maintenance","selected":false,"reference":false,"rawLabel":"Maintenance","value":"Maintenance","parameters":{"name":"x_848642_loaner_0_loaner_vehicle_catalog"}},{"used":false,"image":"","missing":false,"label":"Out on Field","selected":false,"reference":false,"rawLabel":"Out on Field","value":"Out on Field","parameters":{"name":"x_848642_loaner_0_loaner_vehicle_catalog"}},{"used":false,"image":"","missing":false,"label":"Unavailable","selected":false,"reference":false,"rawLabel":"Unavailable","value":"unavailable","parameters":{"name":"x_848642_loaner_0_loaner_vehicle_catalog"}},{"used":false,"image":"","missing":false,"label":"Decommissioned","selected":false,"reference":false,"rawLabel":"Decommissioned","value":"decommissioned","parameters":{"name":"x_848642_loaner_0_loaner_vehicle_catalog"}}]},{"name":"6a110ffd-ef0a-4227-8329-b54258b84447.record","label":"9 - Update Record➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"6a110ffd-ef0a-4227-8329-b54258b84447.table_name","label":"9 - Update Record➛Requested Item Table","reference":"sc_req_item","reference_display":"Requested Item","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"6a110ffd-ef0a-4227-8329-b54258b84447.__action_status__","label":"9 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"6a110ffd-ef0a-4227-8329-b54258b84447.__dont_treat_as_error__","label":"9 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <label_cache>[{"name":"0defcb91-aca9-41ba-ad4c-429aaab93e70.__dont_treat_as_error__","label":"3 - Ask For Approval➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"0defcb91-aca9-41ba-ad4c-429aaab93e70.__action_status__","label":"3 - Ask For Approval➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"0defcb91-aca9-41ba-ad4c-429aaab93e70.approval_state","label":"3 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4c352198-7a9b-4dc6-a2d3-f7cda9c73a60.__dont_treat_as_error__","label":"3 - Create Catalog Task➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"4c352198-7a9b-4dc6-a2d3-f7cda9c73a60.__action_status__","label":"3 - Create Catalog Task➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"4c352198-7a9b-4dc6-a2d3-f7cda9c73a60.Catalog Task","label":"3 - Create Catalog Task➛Catalog Task","reference":"sc_task","reference_display":"Catalog Task","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"bd7cfef8-c3fe-499d-8c9d-d44249a76ce7.record.assigned_to.department","label":"2 - Create Record➛Vehicle Tracker Record➛Assigned to➛Department","reference":"cmn_department","reference_display":"Department","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"department"},{"name":"60cf3ccc-d393-4bae-8abb-093867742dd5.__dont_treat_as_error__","label":"4 - Wait For Condition➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"60cf3ccc-d393-4bae-8abb-093867742dd5.__action_status__","label":"4 - Wait For Condition➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"60cf3ccc-d393-4bae-8abb-093867742dd5.state","label":"4 - Wait For Condition➛State","reference_display":"State","type":"choice","base_type":"choice","choices":[{"label":"Complete","value":"0","order":0.0},{"label":"Timeout","value":"1","order":1.0}],"attributes":{"uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"choice","uiUniqueId":"2e334039-7a20-4ead-9148-909988f1a7e4"}},{"name":"df0fc973-9e5e-4552-990b-4cc8936fa811.__dont_treat_as_error__","label":"3 - Wait For Condition➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"df0fc973-9e5e-4552-990b-4cc8936fa811.__action_status__","label":"3 - Wait For Condition➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"df0fc973-9e5e-4552-990b-4cc8936fa811.state","label":"3 - Wait For Condition➛State","reference_display":"State","type":"choice","base_type":"choice","choices":[{"label":"Complete","value":"0","order":0.0},{"label":"Timeout","value":"1","order":1.0}],"attributes":{"uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"choice","uiUniqueId":"2e334039-7a20-4ead-9148-909988f1a7e4"}},{"name":"6a110ffd-ef0a-4227-8329-b54258b84447.__dont_treat_as_error__","label":"9 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"6a110ffd-ef0a-4227-8329-b54258b84447.__action_status__","label":"9 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"6a110ffd-ef0a-4227-8329-b54258b84447.table_name","label":"9 - Update Record➛Requested Item Table","reference":"sc_req_item","reference_display":"Requested Item","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"6a110ffd-ef0a-4227-8329-b54258b84447.record","label":"9 - Update Record➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"aa2da51c-bb07-4cb6-86e7-f7b77db71314.select_the_vehicle_that_you_need.status","label":"1➛select_the_vehicle_that_you_need➛Status","reference":"","reference_display":"Status","type":"choice","base_type":"choice","parent_table_name":"x_848642_loaner_0_loaner_vehicle_catalog","column_name":"status","choices":[{"label":"-- None --","used":false,"image":"","reference":false,"selected":false,"missing":false,"rawLabel":"-- None --","value":""},{"label":"Available","used":false,"image":"","reference":false,"selected":false,"missing":false,"rawLabel":"Available","value":"available","parameters":{"name":"x_848642_loaner_0_loaner_vehicle_catalog"}},{"label":"Maintenance","used":false,"image":"","reference":false,"selected":false,"missing":false,"rawLabel":"Maintenance","value":"Maintenance","parameters":{"name":"x_848642_loaner_0_loaner_vehicle_catalog"}},{"label":"Out on Field","used":false,"image":"","reference":false,"selected":false,"missing":false,"rawLabel":"Out on Field","value":"Out on Field","parameters":{"name":"x_848642_loaner_0_loaner_vehicle_catalog"}},{"label":"Unavailable","used":false,"image":"","reference":false,"selected":false,"missing":false,"rawLabel":"Unavailable","value":"unavailable","parameters":{"name":"x_848642_loaner_0_loaner_vehicle_catalog"}},{"label":"Decommissioned","used":false,"image":"","reference":false,"selected":false,"missing":false,"rawLabel":"Decommissioned","value":"decommissioned","parameters":{"name":"x_848642_loaner_0_loaner_vehicle_catalog"}}]},{"name":"630a759f-d4b2-4fec-8719-04ad875b826b.__dont_treat_as_error__","label":"8 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"630a759f-d4b2-4fec-8719-04ad875b826b.__action_status__","label":"8 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"630a759f-d4b2-4fec-8719-04ad875b826b.table_name","label":"8 - Update Record➛User Table","reference":"sys_user","reference_display":"User","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"630a759f-d4b2-4fec-8719-04ad875b826b.record","label":"8 - Update Record➛User Record","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"5c44d03c-63a4-4518-ada9-b5572214b5e3.__dont_treat_as_error__","label":"6 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"5c44d03c-63a4-4518-ada9-b5572214b5e3.__action_status__","label":"6 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"5c44d03c-63a4-4518-ada9-b5572214b5e3.table_name","label":"6 - Update Record➛Requested Item Table","reference":"sc_req_item","reference_display":"Requested Item","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"5c44d03c-63a4-4518-ada9-b5572214b5e3.record","label":"6 - Update Record➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"bd7cfef8-c3fe-499d-8c9d-d44249a76ce7.__dont_treat_as_error__","label":"2 - Create Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"bd7cfef8-c3fe-499d-8c9d-d44249a76ce7.__action_status__","label":"2 - Create Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"bd7cfef8-c3fe-499d-8c9d-d44249a76ce7.table_name","label":"2 - Create Record➛Vehicle Tracker Table","reference":"x_848642_loaner_0_vehicle_tracker","reference_display":"Vehicle Tracker","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"bd7cfef8-c3fe-499d-8c9d-d44249a76ce7.record","label":"2 - Create Record➛Vehicle Tracker Record","reference":"x_848642_loaner_0_vehicle_tracker","reference_display":"Vehicle Tracker","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ef99eaf6-7532-4b57-b995-29bd7c9294a7.__dont_treat_as_error__","label":"5 - Create Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ef99eaf6-7532-4b57-b995-29bd7c9294a7.__action_status__","label":"5 - Create Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ef99eaf6-7532-4b57-b995-29bd7c9294a7.table_name","label":"5 - Create Record➛Group Member Table","reference":"sys_user_grmember","reference_display":"Group Member","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ef99eaf6-7532-4b57-b995-29bd7c9294a7.record","label":"5 - Create Record➛Group Member Record","reference":"sys_user_grmember","reference_display":"Group Member","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"{{static.3413364f97f32110791bff36f053afaa}}","label":"Loaner Vehicle Approvers  - Service Catalog","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference"},{"name":"ab4093f3-4377-4d6a-8efd-b8040b8fc768.__dont_treat_as_error__","label":"4 - Ask For Approval➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ab4093f3-4377-4d6a-8efd-b8040b8fc768.__action_status__","label":"4 - Ask For Approval➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ab4093f3-4377-4d6a-8efd-b8040b8fc768.approval_state","label":"4 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"aa2da51c-bb07-4cb6-86e7-f7b77db71314.additional_comments","label":"1 - Get Catalog Variables➛additional_comments","reference":"","reference_display":"additional_comments","type":"multi_small","base_type":"multi_small","attributes":{"catalogType":"2","catalogTypeLabel":"Multi Line Text"}},{"name":"aa2da51c-bb07-4cb6-86e7-f7b77db71314.delivery_information","label":"1 - Get Catalog Variables➛delivery_information","reference":"","reference_display":"delivery_information","type":"multi_small","base_type":"multi_small","attributes":{"catalogType":"2","catalogTypeLabel":"Multi Line Text"}},{"name":"aa2da51c-bb07-4cb6-86e7-f7b77db71314.office_location","label":"1 - Get Catalog Variables➛office_location","reference":"cmn_location","reference_display":"Location","type":"reference","base_type":"reference","attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}},{"name":"aa2da51c-bb07-4cb6-86e7-f7b77db71314.date_to_return","label":"1 - Get Catalog Variables➛date_to_return","reference":"","reference_display":"date_to_return","type":"glide_date","base_type":"glide_date","attributes":{"catalogType":"9","catalogTypeLabel":"Date"}},{"name":"aa2da51c-bb07-4cb6-86e7-f7b77db71314.date_needed","label":"1 - Get Catalog Variables➛date_needed","reference":"","reference_display":"date_needed","type":"glide_date","base_type":"glide_date","attributes":{"catalogType":"9","catalogTypeLabel":"Date"}},{"name":"aa2da51c-bb07-4cb6-86e7-f7b77db71314.select_the_vehicle_that_you_need","label":"1➛select_the_vehicle_that_you_need","reference":"x_848642_loaner_0_loaner_vehicle_catalog","reference_display":"Loaner Vehicle Catalog","type":"reference","base_type":"reference","attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}},{"name":"aa2da51c-bb07-4cb6-86e7-f7b77db71314.requested_for","label":"1 - Get Catalog Variables➛requested_for","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","attributes":{"catalogType":"31","catalogTypeLabel":"Requested For"}},{"name":"be6bb51b-e097-4067-88f1-9063f39444b9.__dont_treat_as_error__","label":"1 - Submit Catalog Item Request➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"be6bb51b-e097-4067-88f1-9063f39444b9.__action_status__","label":"1 - Submit Catalog Item Request➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"be6bb51b-e097-4067-88f1-9063f39444b9.error_message","label":"1 - Submit Catalog Item Request➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"7cf3e70c-55c1-42c4-811a-c6b7ec1692b9"}},{"name":"be6bb51b-e097-4067-88f1-9063f39444b9.requested_item","label":"1 - Submit Catalog Item Request➛Requested Item","reference":"sc_req_item","reference_display":"Requested Item","type":"document_id","base_type":"document_id","attributes":{"uiType":"document_id","uiTypeLabel":"Document ID","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"aad3452b-309c-469c-9797-4df9ef6f86be"}},{"name":"be6bb51b-e097-4067-88f1-9063f39444b9.status","label":"1 - Submit Catalog Item Request➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Success","value":"0","order":0.0},{"label":"Error","value":"1","order":1.0},{"label":"Timeout","value":"2","order":2.0}],"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"eacb2914-9214-441b-ac02-5703c4d8b6ee"}},{"name":"611ee8b3-663e-41f0-9419-2ead31a2398e.approval_state","label":"1 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"611ee8b3-663e-41f0-9419-2ead31a2398e.__action_status__","label":"1 - Ask For Approval➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"611ee8b3-663e-41f0-9419-2ead31a2398e.__dont_treat_as_error__","label":"1 - Ask For Approval➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"Service Catalog_1.request_item","label":"Trigger - Service Catalog➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"default_search_field":"number"}},{"name":"Service Catalog_1.run_start_date_time","label":"Trigger - Service Catalog➛Run Start Date/Time","type":"glide_date_time","base_type":"glide_date_time","attributes":{"test_input_hidden":"true"}},{"name":"bffe4417-126b-4553-80bb-6bb111058ccf.Catalog Task","label":"5 - Create Catalog Task➛Catalog Task","reference":"sc_task","reference_display":"Catalog Task","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"bffe4417-126b-4553-80bb-6bb111058ccf.__action_status__","label":"5 - Create Catalog Task➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"bffe4417-126b-4553-80bb-6bb111058ccf.__dont_treat_as_error__","label":"5 - Create Catalog Task➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"bd7cfef8-c3fe-499d-8c9d-d44249a76ce7.record.group","label":"2 - Create Record➛Vehicle Tracker Record➛Group","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","parent_table_name":"sys_user_grmember","column_name":"group"},{"name":"Service Catalog_1.request_item.delivery_task","label":"Trigger - Service Catalog➛Requested Item Record➛Delivery task","reference":"sc_cat_item_delivery_task","reference_display":"Execution Plan Task","type":"reference","base_type":"reference","parent_table_name":"sc_req_item","column_name":"delivery_task"},{"name":"bd7cfef8-c3fe-499d-8c9d-d44249a76ce7.record.group.name","label":"2 - Create Record➛Vehicle Tracker Record➛Group➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user_group","column_name":"name"},{"name":"96896df2-aa5f-48d9-8ef3-f124089ad5b8.answer","label":"7 - Make a decision➛Answer","reference_display":"Answer","type":"document_id","base_type":"document_id","attributes":{}},{"name":"96896df2-aa5f-48d9-8ef3-f124089ad5b8.table_name","label":"7 - Make a decision➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{}},{"name":"a560d375-6638-4e57-a122-eac17de20e4f.record","label":"7 - Update Record➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a560d375-6638-4e57-a122-eac17de20e4f.table_name","label":"7 - Update Record➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a560d375-6638-4e57-a122-eac17de20e4f.__action_status__","label":"7 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"a560d375-6638-4e57-a122-eac17de20e4f.__dont_treat_as_error__","label":"7 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"96d60166-432a-41f3-b213-5b229d42f35b.record","label":"9 - Update Record➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"96d60166-432a-41f3-b213-5b229d42f35b.table_name","label":"9 - Update Record➛Requested Item Table","reference":"sc_req_item","reference_display":"Requested Item","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"96d60166-432a-41f3-b213-5b229d42f35b.__action_status__","label":"9 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"96d60166-432a-41f3-b213-5b229d42f35b.__dont_treat_as_error__","label":"9 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"21935eda-1e2a-4bb7-9a2a-742feb74f942.record","label":"10 - Update Record➛Vehicle Tracker Record","reference":"x_848642_loaner_0_vehicle_tracker","reference_display":"Vehicle Tracker","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"21935eda-1e2a-4bb7-9a2a-742feb74f942.table_name","label":"10 - Update Record➛Vehicle Tracker Table","reference":"x_848642_loaner_0_vehicle_tracker","reference_display":"Vehicle Tracker","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"21935eda-1e2a-4bb7-9a2a-742feb74f942.__action_status__","label":"10 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"21935eda-1e2a-4bb7-9a2a-742feb74f942.__dont_treat_as_error__","label":"10 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"aa2da51c-bb07-4cb6-86e7-f7b77db71314.select_the_vehicle_that_you_need.sys_mod_count","label":"1➛select_the_vehicle_that_you_need➛Updates","reference":"","reference_display":"Updates","type":"integer","base_type":"integer","parent_table_name":"x_848642_loaner_0_loaner_vehicle_catalog","column_name":"sys_mod_count"},{"name":"1d73e316-3f38-45cc-bc8e-0d0424a68b23.record","label":"7 - Update Record➛Vehicle Tracker Record","reference":"x_848642_loaner_0_vehicle_tracker","reference_display":"Vehicle Tracker","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1d73e316-3f38-45cc-bc8e-0d0424a68b23.table_name","label":"7 - Update Record➛Vehicle Tracker Table","reference":"x_848642_loaner_0_vehicle_tracker","reference_display":"Vehicle Tracker","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1d73e316-3f38-45cc-bc8e-0d0424a68b23.__action_status__","label":"7 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1d73e316-3f38-45cc-bc8e-0d0424a68b23.__dont_treat_as_error__","label":"7 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"aa2da51c-bb07-4cb6-86e7-f7b77db71314.select_vehicle","label":"1 - Get Catalog Variables➛select_vehicle","reference":"x_848642_loaner_0_loaner_vehicle_catalog","reference_display":"Loaner Vehicle Catalog","type":"reference","base_type":"reference","attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}},{"name":"dfeb8435-2bdb-4e94-af32-c910754a1447.total_duration","label":"4 - Wait for a duration of time➛Total Duration","reference_display":"Total Duration","type":"glide_duration","base_type":"glide_duration","attributes":{"pills_draggable_inside_block":"false","pills_draggable_outside_block":"true"}},{"name":"dfeb8435-2bdb-4e94-af32-c910754a1447.scheduled_end_date_time","label":"4 - Wait for a duration of time➛Scheduled End date/time","reference_display":"Scheduled End date/time","type":"glide_date_time","base_type":"glide_date_time","attributes":{"pills_draggable_inside_block":"false","pills_draggable_outside_block":"true"}},{"name":"82e2fd94-1461-44ee-afff-1798bba19244.state","label":"4 - Wait For Condition➛State","reference_display":"State","type":"choice","base_type":"choice","choices":[{"label":"Complete","value":"0","order":0.0},{"label":"Timeout","value":"1","order":1.0}],"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"2e334039-7a20-4ead-9148-909988f1a7e4"}},{"name":"82e2fd94-1461-44ee-afff-1798bba19244.__action_status__","label":"4 - Wait For Condition➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"82e2fd94-1461-44ee-afff-1798bba19244.__dont_treat_as_error__","label":"4 - Wait For Condition➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Service Catalog_1.request_item.assigned_to.manager","label":"Trigger - Service Catalog➛Requested Item Record➛Assigned to➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager"}]</label_cache>
         <master_snapshot>3eebf9d397ff2110791bff36f053afde</master_snapshot>
         <name>Loaner Vehicle Flow</name>
         <natlang/>
@@ -28,15 +28,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>a22f485b973b2110791bff36f053af9d</sys_id>
-        <sys_mod_count>30</sys_mod_count>
+        <sys_mod_count>61</sys_mod_count>
         <sys_name>Loaner Vehicle Flow</sys_name>
         <sys_overrides/>
         <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_848642_loaner_0">84aafe80976b2110791bff36f053af21</sys_package>
         <sys_policy/>
         <sys_scope display_value="Loaner Vehicle Request and Inventory">84aafe80976b2110791bff36f053af21</sys_scope>
         <sys_update_name>sys_hub_flow_a22f485b973b2110791bff36f053af9d</sys_update_name>
-        <sys_updated_by>seanb</sys_updated_by>
-        <sys_updated_on>2023-07-18 04:07:23</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-09 21:49:36</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=a22f485b973b2110791bff36f053af9d"/>
@@ -69,10 +69,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-07-08 03:48:31</sys_created_on>
         <sys_id>ea7f281f97bb2110791bff36f053af60</sys_id>
-        <sys_mod_count>30</sys_mod_count>
+        <sys_mod_count>61</sys_mod_count>
         <sys_scope/>
-        <sys_updated_by>seanb</sys_updated_by>
-        <sys_updated_on>2023-07-18 04:07:23</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-09 21:49:35</sys_updated_on>
         <trigger_definition display_value="Service Catalog">c43a1011c36813002841b63b12d3ae15</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -156,14 +156,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-07-08 03:48:30</sys_created_on>
         <sys_id>627f281f97bb2110791bff36f053af52</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>21</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Loaner Vehicle Request and Inventory">84aafe80976b2110791bff36f053af21</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>seanb</sys_updated_by>
-        <sys_updated_on>2023-07-18 04:07:23</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-09 21:49:35</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -237,14 +237,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-07-08 03:48:31</sys_created_on>
         <sys_id>ae7f281f97bb2110791bff36f053af59</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>22</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Loaner Vehicle Request and Inventory">84aafe80976b2110791bff36f053af21</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>seanb</sys_updated_by>
-        <sys_updated_on>2023-07-18 04:07:23</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-09 21:49:35</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -258,159 +258,7 @@
     </sys_hub_flow_input>
     <sys_hub_flow_output action="delete_multiple" query="model=a22f485b973b2110791bff36f053af9d"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=a22f485b973b2110791bff36f053af9d"/>
-    <sys_hub_action_instance action="delete_multiple" query="flow=a22f485b973b2110791bff36f053af9d^sys_idNOT IN527b29d397bf2110791bff36f053af60,699738459780b110791bff36f053af5a,7a9ee32c97cc3110791bff36f053afdc,7c5ab19397ff2110791bff36f053af30,86ace91797bf2110791bff36f053af27,de01f91b97bf2110791bff36f053af61,e844ad1f977f2110791bff36f053afbc,f3d1795b97bf2110791bff36f053af93"/>
-    <sys_hub_action_instance action="INSERT_OR_UPDATE">
-        <action_inputs/>
-        <action_inputs/>
-        <action_type display_value="Ask For Approval">f8f2e9920b10030085c083eb37673abd</action_type>
-        <action_type_parent/>
-        <comment/>
-        <display_text/>
-        <flow display_value="Loaner Vehicle Flow">a22f485b973b2110791bff36f053af9d</flow>
-        <order>3</order>
-        <parent_ui_id/>
-        <sys_class_name>sys_hub_action_instance</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-07-08 08:10:39</sys_created_on>
-        <sys_id>527b29d397bf2110791bff36f053af60</sys_id>
-        <sys_mod_count>60</sys_mod_count>
-        <sys_scope display_value="Loaner Vehicle Request and Inventory">84aafe80976b2110791bff36f053af21</sys_scope>
-        <sys_updated_by>seanb</sys_updated_by>
-        <sys_updated_on>2023-07-18 04:07:23</sys_updated_on>
-        <ui_id>ab4093f3-4377-4d6a-8efd-b8040b8fc768</ui_id>
-    </sys_hub_action_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=527b29d397bf2110791bff36f053af60"/>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_action_instance</document>
-        <document_key>527b29d397bf2110791bff36f053af60</document_key>
-        <order>2</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-07-08 08:10:39</sys_created_on>
-        <sys_id>2a7b29d397bf2110791bff36f053af63</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-08 08:10:39</sys_updated_on>
-        <value>approval</value>
-        <variable display_value="Approval Field">01f2e9920b10030085c083eb37673ad8</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_action_instance</document>
-        <document_key>527b29d397bf2110791bff36f053af60</document_key>
-        <order>1</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-07-08 08:10:39</sys_created_on>
-        <sys_id>667b29d397bf2110791bff36f053af64</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-08 08:10:39</sys_updated_on>
-        <value>sc_req_item</value>
-        <variable display_value="Table">bcf2e9920b10030085c083eb37673acc</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_action_instance</document>
-        <document_key>527b29d397bf2110791bff36f053af60</document_key>
-        <order>5</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-07-08 08:10:39</sys_created_on>
-        <sys_id>a27b29d397bf2110791bff36f053af64</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-08 08:10:39</sys_updated_on>
-        <value/>
-        <variable display_value="Due Date">c5f2e9920b10030085c083eb37673af9</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_action_instance</document>
-        <document_key>527b29d397bf2110791bff36f053af60</document_key>
-        <order>3</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-07-08 08:10:39</sys_created_on>
-        <sys_id>ee7b29d397bf2110791bff36f053af63</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-08 08:10:39</sys_updated_on>
-        <value>approval_history</value>
-        <variable display_value="Journal Field">c1f2e9920b10030085c083eb37673ae3</variable>
-    </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=527b29d397bf2110791bff36f053af60"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>approval_conditions</field>
-        <id>527b29d397bf2110791bff36f053af60</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-07-08 08:10:39</sys_created_on>
-        <sys_id>e27b29d397bf2110791bff36f053af63</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-08 08:10:39</sys_updated_on>
-        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
-        <value>ApprovesAnyG[{{static.3413364f97f32110791bff36f053afaa}}]</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>approval_field</field>
-        <id>527b29d397bf2110791bff36f053af60</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-07-08 08:10:39</sys_created_on>
-        <sys_id>e27b29d397bf2110791bff36f053af62</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-08 08:10:39</sys_updated_on>
-        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>due_date</field>
-        <id>527b29d397bf2110791bff36f053af60</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-07-08 08:10:39</sys_created_on>
-        <sys_id>227b29d397bf2110791bff36f053af63</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-08 08:10:39</sys_updated_on>
-        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
-        <value>{"action":"none","date_type":"actual","date":"{{}}","duration":1,"duration_type":"days","schedule":"","schedule_label":""}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>journal_field</field>
-        <id>527b29d397bf2110791bff36f053af60</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-07-08 08:10:39</sys_created_on>
-        <sys_id>aa7b29d397bf2110791bff36f053af62</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-08 08:10:39</sys_updated_on>
-        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>record</field>
-        <id>527b29d397bf2110791bff36f053af60</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-07-08 08:10:39</sys_created_on>
-        <sys_id>6e7b29d397bf2110791bff36f053af62</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-08 08:10:39</sys_updated_on>
-        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
-        <value>{{Service Catalog_1.request_item}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>table</field>
-        <id>527b29d397bf2110791bff36f053af60</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-07-08 08:10:39</sys_created_on>
-        <sys_id>a67b29d397bf2110791bff36f053af63</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-08 08:10:39</sys_updated_on>
-        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_hub_input_scripts action="delete_multiple" query="instance=527b29d397bf2110791bff36f053af60"/>
-    <sys_hub_alias_mapping action="delete_multiple" query="source_id=527b29d397bf2110791bff36f053af60"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=a22f485b973b2110791bff36f053af9d^sys_idNOT IN699738459780b110791bff36f053af5a,7a9ee32c97cc3110791bff36f053afdc,7c5ab19397ff2110791bff36f053af30,86ace91797bf2110791bff36f053af27,de01f91b97bf2110791bff36f053af61,e844ad1f977f2110791bff36f053afbc,eb227de197243110791bff36f053af8b,f3d1795b97bf2110791bff36f053af93"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
@@ -425,10 +273,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-07-13 14:53:19</sys_created_on>
         <sys_id>699738459780b110791bff36f053af5a</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>86</sys_mod_count>
         <sys_scope display_value="Loaner Vehicle Request and Inventory">84aafe80976b2110791bff36f053af21</sys_scope>
-        <sys_updated_by>seanb</sys_updated_by>
-        <sys_updated_on>2023-07-18 04:07:23</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-08-09 22:31:35</sys_updated_on>
         <ui_id>1d73e316-3f38-45cc-bc8e-0d0424a68b23</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=699738459780b110791bff36f053af5a"/>
@@ -513,10 +361,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-07-12 14:55:59</sys_created_on>
         <sys_id>7a9ee32c97cc3110791bff36f053afdc</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>90</sys_mod_count>
         <sys_scope display_value="Loaner Vehicle Request and Inventory">84aafe80976b2110791bff36f053af21</sys_scope>
-        <sys_updated_by>seanb</sys_updated_by>
-        <sys_updated_on>2023-07-18 04:07:23</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-08-09 22:31:35</sys_updated_on>
         <ui_id>21935eda-1e2a-4bb7-9a2a-742feb74f942</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=7a9ee32c97cc3110791bff36f053afdc"/>
@@ -528,10 +376,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-07-13 14:53:20</sys_created_on>
         <sys_id>e59738459780b110791bff36f053af64</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-13 14:53:20</sys_updated_on>
-        <value>vehicle_status=Returned to Warehouse^=</value>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>seanb</sys_updated_by>
+        <sys_updated_on>2023-07-31 11:35:32</sys_updated_on>
+        <value>vehicle_status=Returned to Warehouse^tracker_status=Cancelled</value>
         <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -614,10 +462,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-07-08 09:15:31</sys_created_on>
         <sys_id>7c5ab19397ff2110791bff36f053af30</sys_id>
-        <sys_mod_count>32</sys_mod_count>
+        <sys_mod_count>110</sys_mod_count>
         <sys_scope display_value="Loaner Vehicle Request and Inventory">84aafe80976b2110791bff36f053af21</sys_scope>
-        <sys_updated_by>seanb</sys_updated_by>
-        <sys_updated_on>2023-07-18 04:07:23</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-08-09 22:31:35</sys_updated_on>
         <ui_id>6a110ffd-ef0a-4227-8329-b54258b84447</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=7c5ab19397ff2110791bff36f053af30"/>
@@ -715,10 +563,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-07-08 08:15:49</sys_created_on>
         <sys_id>86ace91797bf2110791bff36f053af27</sys_id>
-        <sys_mod_count>56</sys_mod_count>
+        <sys_mod_count>134</sys_mod_count>
         <sys_scope display_value="Loaner Vehicle Request and Inventory">84aafe80976b2110791bff36f053af21</sys_scope>
-        <sys_updated_by>seanb</sys_updated_by>
-        <sys_updated_on>2023-07-18 04:07:23</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-08-09 22:31:35</sys_updated_on>
         <ui_id>bd7cfef8-c3fe-499d-8c9d-d44249a76ce7</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=86ace91797bf2110791bff36f053af27"/>
@@ -755,11 +603,11 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-07-08 08:15:49</sys_created_on>
         <sys_id>0aace91797bf2110791bff36f053af28</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-13 14:48:36</sys_updated_on>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>seanb</sys_updated_by>
+        <sys_updated_on>2023-07-31 11:34:32</sys_updated_on>
         <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
-        <value>request_number={{Service Catalog_1.request_item}}^assigned_to={{aa2da51c-bb07-4cb6-86e7-f7b77db71314.requested_for}}^vehicle={{aa2da51c-bb07-4cb6-86e7-f7b77db71314.select_the_vehicle_that_you_need}}^date_requested={{aa2da51c-bb07-4cb6-86e7-f7b77db71314.date_needed}}^expected_return_date={{aa2da51c-bb07-4cb6-86e7-f7b77db71314.date_to_return}}^location={{aa2da51c-bb07-4cb6-86e7-f7b77db71314.office_location}}^delivery_information={{aa2da51c-bb07-4cb6-86e7-f7b77db71314.delivery_information}}^additional_comments={{aa2da51c-bb07-4cb6-86e7-f7b77db71314.additional_comments}}^vehicle_status=Pending Release^tracker_status=Open</value>
+        <value>request_number={{Service Catalog_1.request_item}}^assigned_to={{aa2da51c-bb07-4cb6-86e7-f7b77db71314.requested_for}}^vehicle={{aa2da51c-bb07-4cb6-86e7-f7b77db71314.select_vehicle}}^date_requested={{aa2da51c-bb07-4cb6-86e7-f7b77db71314.date_needed}}^expected_return_date={{aa2da51c-bb07-4cb6-86e7-f7b77db71314.date_to_return}}^location={{aa2da51c-bb07-4cb6-86e7-f7b77db71314.office_location}}^delivery_information={{aa2da51c-bb07-4cb6-86e7-f7b77db71314.delivery_information}}^additional_comments={{aa2da51c-bb07-4cb6-86e7-f7b77db71314.additional_comments}}^vehicle_status=Pending Release^tracker_status=Open</value>
     </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=86ace91797bf2110791bff36f053af27"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=86ace91797bf2110791bff36f053af27"/>
@@ -777,10 +625,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-07-08 08:34:56</sys_created_on>
         <sys_id>de01f91b97bf2110791bff36f053af61</sys_id>
-        <sys_mod_count>54</sys_mod_count>
+        <sys_mod_count>132</sys_mod_count>
         <sys_scope display_value="Loaner Vehicle Request and Inventory">84aafe80976b2110791bff36f053af21</sys_scope>
-        <sys_updated_by>seanb</sys_updated_by>
-        <sys_updated_on>2023-07-18 04:07:23</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-08-09 22:31:35</sys_updated_on>
         <ui_id>bffe4417-126b-4553-80bb-6bb111058ccf</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=de01f91b97bf2110791bff36f053af61"/>
@@ -797,6 +645,20 @@
         <sys_updated_on>2023-07-08 08:35:20</sys_updated_on>
         <value>d2078636972fa110791bff36f053af3f:item_option_new,e36ce33597332110791bff36f053afad:item_option_new,33378236972fa110791bff36f053af66:item_option_new,96870e36972fa110791bff36f053af66:item_option_new,c6a74e36972fa110791bff36f053afcd:item_option_new,3f480a36972fa110791bff36f053afbe:item_option_new,df6846b6972fa110791bff36f053afa3:item_option_new</value>
         <variable display_value="Catalog Variables">7b51fd0e73141300612c273ffff6a7be</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>de01f91b97bf2110791bff36f053af61</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-09 21:40:26</sys_created_on>
+        <sys_id>10b7557d97607110791bff36f053afd2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-09 21:40:26</sys_updated_on>
+        <value> Loaner Vehicle Delivery Task</value>
+        <variable display_value="Short Description">3751fd0e73141300612c273ffff6a7a6</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -857,12 +719,11 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-07-08 08:34:56</sys_created_on>
         <sys_id>de01f91b97bf2110791bff36f053af63</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-13 14:48:36</sys_updated_on>
+        <sys_updated_on>2023-08-09 21:40:26</sys_updated_on>
         <table>var__m_sys_hub_action_input_af51fd0e73141300612c273ffff6a785</table>
-        <value> {{Service Catalog_1.request_item.delivery_task}}
-Loaner Vehicle Delivery Task” and assign it to the Loaner Vehicle Delivery Group.</value>
+        <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>catalog_variables</field>
@@ -904,10 +765,10 @@ Loaner Vehicle Delivery Task” and assign it to the Loaner Vehicle Delivery Gro
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-07-08 07:39:07</sys_created_on>
         <sys_id>e844ad1f977f2110791bff36f053afbc</sys_id>
-        <sys_mod_count>62</sys_mod_count>
+        <sys_mod_count>140</sys_mod_count>
         <sys_scope display_value="Loaner Vehicle Request and Inventory">84aafe80976b2110791bff36f053af21</sys_scope>
-        <sys_updated_by>seanb</sys_updated_by>
-        <sys_updated_on>2023-07-18 04:07:23</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-08-09 22:31:35</sys_updated_on>
         <ui_id>aa2da51c-bb07-4cb6-86e7-f7b77db71314</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=e844ad1f977f2110791bff36f053afbc"/>
@@ -981,6 +842,158 @@ Loaner Vehicle Delivery Task” and assign it to the Loaner Vehicle Delivery Gro
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
+        <action_type display_value="Ask For Approval">f8f2e9920b10030085c083eb37673abd</action_type>
+        <action_type_parent/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Loaner Vehicle Flow">a22f485b973b2110791bff36f053af9d</flow>
+        <order>3</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-09 04:57:40</sys_created_on>
+        <sys_id>eb227de197243110791bff36f053af8b</sys_id>
+        <sys_mod_count>50</sys_mod_count>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory">84aafe80976b2110791bff36f053af21</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-08-09 22:31:35</sys_updated_on>
+        <ui_id>0defcb91-aca9-41ba-ad4c-429aaab93e70</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=eb227de197243110791bff36f053af8b"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>eb227de197243110791bff36f053af8b</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-09 04:57:40</sys_created_on>
+        <sys_id>23227de197243110791bff36f053af8f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-09 04:57:40</sys_updated_on>
+        <value>approval</value>
+        <variable display_value="Approval Field">01f2e9920b10030085c083eb37673ad8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>eb227de197243110791bff36f053af8b</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-09 04:57:40</sys_created_on>
+        <sys_id>2b227de197243110791bff36f053af8f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-09 04:57:40</sys_updated_on>
+        <value>approval_history</value>
+        <variable display_value="Journal Field">c1f2e9920b10030085c083eb37673ae3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>eb227de197243110791bff36f053af8b</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-09 04:57:40</sys_created_on>
+        <sys_id>af227de197243110791bff36f053af8f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-09 04:57:40</sys_updated_on>
+        <value>sc_req_item</value>
+        <variable display_value="Table">bcf2e9920b10030085c083eb37673acc</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>eb227de197243110791bff36f053af8b</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-09 04:57:40</sys_created_on>
+        <sys_id>eb227de197243110791bff36f053af8f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-09 04:57:40</sys_updated_on>
+        <value/>
+        <variable display_value="Due Date">c5f2e9920b10030085c083eb37673af9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=eb227de197243110791bff36f053af8b"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>approval_conditions</field>
+        <id>eb227de197243110791bff36f053af8b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-09 04:57:40</sys_created_on>
+        <sys_id>eb227de197243110791bff36f053af8e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-09 12:45:50</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value>ApprovesAnyG[{{static.3413364f97f32110791bff36f053afaa}}]</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>approval_field</field>
+        <id>eb227de197243110791bff36f053af8b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-09 04:57:40</sys_created_on>
+        <sys_id>eb227de197243110791bff36f053af8d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-09 04:57:40</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>due_date</field>
+        <id>eb227de197243110791bff36f053af8b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-09 04:57:40</sys_created_on>
+        <sys_id>2b227de197243110791bff36f053af8e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-09 04:57:40</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value>{"action":"none","date_type":"actual","date":"{{}}","duration":1,"duration_type":"days","schedule":"","schedule_label":""}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>journal_field</field>
+        <id>eb227de197243110791bff36f053af8b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-09 04:57:40</sys_created_on>
+        <sys_id>a3227de197243110791bff36f053af8e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-09 04:57:40</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>eb227de197243110791bff36f053af8b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-09 04:57:40</sys_created_on>
+        <sys_id>67227de197243110791bff36f053af8e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-09 04:57:40</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value>{{Service Catalog_1.request_item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>eb227de197243110791bff36f053af8b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-09 04:57:40</sys_created_on>
+        <sys_id>af227de197243110791bff36f053af8e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-09 04:57:40</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=eb227de197243110791bff36f053af8b"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=eb227de197243110791bff36f053af8b"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent/>
         <comment/>
@@ -992,10 +1005,10 @@ Loaner Vehicle Delivery Task” and assign it to the Loaner Vehicle Delivery Gro
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-07-08 08:38:36</sys_created_on>
         <sys_id>f3d1795b97bf2110791bff36f053af93</sys_id>
-        <sys_mod_count>48</sys_mod_count>
+        <sys_mod_count>126</sys_mod_count>
         <sys_scope display_value="Loaner Vehicle Request and Inventory">84aafe80976b2110791bff36f053af21</sys_scope>
-        <sys_updated_by>seanb</sys_updated_by>
-        <sys_updated_on>2023-07-18 04:07:23</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-08-09 22:31:35</sys_updated_on>
         <ui_id>5c44d03c-63a4-4518-ada9-b5572214b5e3</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=f3d1795b97bf2110791bff36f053af93"/>
@@ -1089,10 +1102,10 @@ Loaner Vehicle Delivery Task” and assign it to the Loaner Vehicle Delivery Gro
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-07-08 08:53:42</sys_created_on>
         <sys_id>0955fd1f97bf2110791bff36f053afa7</sys_id>
-        <sys_mod_count>21</sys_mod_count>
+        <sys_mod_count>54</sys_mod_count>
         <sys_scope display_value="Loaner Vehicle Request and Inventory">84aafe80976b2110791bff36f053af21</sys_scope>
-        <sys_updated_by>seanb</sys_updated_by>
-        <sys_updated_on>2023-07-18 04:07:23</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-09 21:49:36</sys_updated_on>
         <ui_id>1ecc595b-e3ce-4b95-ada8-2a4f534e7415</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1122,10 +1135,10 @@ Loaner Vehicle Delivery Task” and assign it to the Loaner Vehicle Delivery Gro
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-07-08 08:10:39</sys_created_on>
         <sys_id>267b29d397bf2110791bff36f053af65</sys_id>
-        <sys_mod_count>29</sys_mod_count>
+        <sys_mod_count>62</sys_mod_count>
         <sys_scope display_value="Loaner Vehicle Request and Inventory">84aafe80976b2110791bff36f053af21</sys_scope>
-        <sys_updated_by>seanb</sys_updated_by>
-        <sys_updated_on>2023-07-18 04:07:23</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-09 21:49:36</sys_updated_on>
         <ui_id>ac024c56-a67b-4a46-a9aa-9d257b5cd8f5</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1152,11 +1165,11 @@ Loaner Vehicle Delivery Task” and assign it to the Loaner Vehicle Delivery Gro
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-07-08 08:10:39</sys_created_on>
         <sys_id>e27b29d397bf2110791bff36f053af69</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-08 08:10:39</sys_updated_on>
+        <sys_updated_on>2023-08-09 12:57:43</sys_updated_on>
         <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
-        <value>{{ab4093f3-4377-4d6a-8efd-b8040b8fc768.approval_state}}=approved</value>
+        <value>{{0defcb91-aca9-41ba-ad4c-429aaab93e70.approval_state}}=approved</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>condition_name</field>
@@ -1263,17 +1276,17 @@ Loaner Vehicle Delivery Task” and assign it to the Loaner Vehicle Delivery Gro
         <binding_strategy>com.snc.process_flow.engine.binding.RunAlways</binding_strategy>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"9feb3dd397ff2110791bff36f053afe3","name":"plan","plan_signature":null}}</plan>
         <plan_id>a22f485b973b2110791bff36f053af9d</plan_id>
-        <snapshot>3eebf9d397ff2110791bff36f053afde</snapshot>
+        <snapshot>f563657997a07110791bff36f053af28</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-07-08 09:22:32</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>9feb3dd397ff2110791bff36f053afe3</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
-        <sys_updated_by>seanb</sys_updated_by>
-        <sys_updated_on>2023-07-18 04:07:23</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-09 21:49:35</sys_updated_on>
         <trigger display_value="">57eb3dd397ff2110791bff36f053afe3</trigger>
     </sys_flow_trigger_plan>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=a22f485b973b2110791bff36f053af9d"/>
@@ -1288,7 +1301,7 @@ Loaner Vehicle Delivery Task” and assign it to the Loaner Vehicle Delivery Gro
         <copied_from_name/>
         <description>Once the request is submitted, we would like to automate the creation of a vehicle tracker as well as all activities associated with the request process such as approval and delivery. The flow should be triggered when the Service Catalog is submitted. A Vehicle Tracker containing information from the catalog item is automatically created. An approval to the Loaner Vehicle Approver group is attached to the RITM ticket. Once at least one approver approves, a Delivery task is then created and assigned to the Vehicle Delivery Group.  Once the delivery task is closed the RITM ticket needs to be closed</description>
         <internal_name>request_loaner_vehicle_flow</internal_name>
-        <label_cache>[{"name":"1d73e316-3f38-45cc-bc8e-0d0424a68b23.__dont_treat_as_error__","label":"7 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1d73e316-3f38-45cc-bc8e-0d0424a68b23.__action_status__","label":"7 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1d73e316-3f38-45cc-bc8e-0d0424a68b23.table_name","label":"7 - Update Record➛Vehicle Tracker Table","reference":"x_848642_loaner_0_vehicle_tracker","reference_display":"Vehicle Tracker","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1d73e316-3f38-45cc-bc8e-0d0424a68b23.record","label":"7 - Update Record➛Vehicle Tracker Record","reference":"x_848642_loaner_0_vehicle_tracker","reference_display":"Vehicle Tracker","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"aa2da51c-bb07-4cb6-86e7-f7b77db71314.select_the_vehicle_that_you_need.sys_mod_count","label":"1➛select_the_vehicle_that_you_need➛Updates","reference":"","reference_display":"Updates","type":"integer","base_type":"integer","parent_table_name":"x_848642_loaner_0_loaner_vehicle_catalog","column_name":"sys_mod_count"},{"name":"21935eda-1e2a-4bb7-9a2a-742feb74f942.__dont_treat_as_error__","label":"10 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"21935eda-1e2a-4bb7-9a2a-742feb74f942.__action_status__","label":"10 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"21935eda-1e2a-4bb7-9a2a-742feb74f942.table_name","label":"10 - Update Record➛Vehicle Tracker Table","reference":"x_848642_loaner_0_vehicle_tracker","reference_display":"Vehicle Tracker","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"21935eda-1e2a-4bb7-9a2a-742feb74f942.record","label":"10 - Update Record➛Vehicle Tracker Record","reference":"x_848642_loaner_0_vehicle_tracker","reference_display":"Vehicle Tracker","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"96d60166-432a-41f3-b213-5b229d42f35b.__dont_treat_as_error__","label":"9 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"96d60166-432a-41f3-b213-5b229d42f35b.__action_status__","label":"9 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"96d60166-432a-41f3-b213-5b229d42f35b.table_name","label":"9 - Update Record➛Requested Item Table","reference":"sc_req_item","reference_display":"Requested Item","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"96d60166-432a-41f3-b213-5b229d42f35b.record","label":"9 - Update Record➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a560d375-6638-4e57-a122-eac17de20e4f.__dont_treat_as_error__","label":"7 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"a560d375-6638-4e57-a122-eac17de20e4f.__action_status__","label":"7 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"a560d375-6638-4e57-a122-eac17de20e4f.table_name","label":"7 - Update Record➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a560d375-6638-4e57-a122-eac17de20e4f.record","label":"7 - Update Record➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"96896df2-aa5f-48d9-8ef3-f124089ad5b8.table_name","label":"7 - Make a decision➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{}},{"name":"96896df2-aa5f-48d9-8ef3-f124089ad5b8.answer","label":"7 - Make a decision➛Answer","reference_display":"Answer","type":"document_id","base_type":"document_id","attributes":{}},{"name":"bd7cfef8-c3fe-499d-8c9d-d44249a76ce7.record.group.name","label":"2 - Create Record➛Vehicle Tracker Record➛Group➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user_group","column_name":"name"},{"name":"Service Catalog_1.request_item.delivery_task","label":"Trigger - Service Catalog➛Requested Item Record➛Delivery task","reference":"sc_cat_item_delivery_task","reference_display":"Execution Plan Task","type":"reference","base_type":"reference","parent_table_name":"sc_req_item","column_name":"delivery_task"},{"name":"bd7cfef8-c3fe-499d-8c9d-d44249a76ce7.record.group","label":"2 - Create Record➛Vehicle Tracker Record➛Group","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","parent_table_name":"sys_user_grmember","column_name":"group"},{"name":"bffe4417-126b-4553-80bb-6bb111058ccf.__dont_treat_as_error__","label":"5 - Create Catalog Task➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"bffe4417-126b-4553-80bb-6bb111058ccf.__action_status__","label":"5 - Create Catalog Task➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"bffe4417-126b-4553-80bb-6bb111058ccf.Catalog Task","label":"5 - Create Catalog Task➛Catalog Task","reference":"sc_task","reference_display":"Catalog Task","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Service Catalog_1.run_start_date_time","label":"Trigger - Service Catalog➛Run Start Date/Time","type":"glide_date_time","base_type":"glide_date_time","attributes":{"test_input_hidden":"true"}},{"name":"Service Catalog_1.request_item","label":"Trigger - Service Catalog➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"default_search_field":"number"}},{"name":"611ee8b3-663e-41f0-9419-2ead31a2398e.__dont_treat_as_error__","label":"1 - Ask For Approval➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"611ee8b3-663e-41f0-9419-2ead31a2398e.__action_status__","label":"1 - Ask For Approval➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"611ee8b3-663e-41f0-9419-2ead31a2398e.approval_state","label":"1 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"be6bb51b-e097-4067-88f1-9063f39444b9.status","label":"1 - Submit Catalog Item Request➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Success","value":"0","order":0.0},{"label":"Error","value":"1","order":1.0},{"label":"Timeout","value":"2","order":2.0}],"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"eacb2914-9214-441b-ac02-5703c4d8b6ee"}},{"name":"be6bb51b-e097-4067-88f1-9063f39444b9.requested_item","label":"1 - Submit Catalog Item Request➛Requested Item","reference":"sc_req_item","reference_display":"Requested Item","type":"document_id","base_type":"document_id","attributes":{"uiType":"document_id","uiTypeLabel":"Document ID","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"aad3452b-309c-469c-9797-4df9ef6f86be"}},{"name":"be6bb51b-e097-4067-88f1-9063f39444b9.error_message","label":"1 - Submit Catalog Item Request➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"7cf3e70c-55c1-42c4-811a-c6b7ec1692b9"}},{"name":"be6bb51b-e097-4067-88f1-9063f39444b9.__action_status__","label":"1 - Submit Catalog Item Request➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"be6bb51b-e097-4067-88f1-9063f39444b9.__dont_treat_as_error__","label":"1 - Submit Catalog Item Request➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"aa2da51c-bb07-4cb6-86e7-f7b77db71314.requested_for","label":"1 - Get Catalog Variables➛requested_for","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","attributes":{"catalogType":"31","catalogTypeLabel":"Requested For"}},{"name":"aa2da51c-bb07-4cb6-86e7-f7b77db71314.select_the_vehicle_that_you_need","label":"1 - Get Catalog Variables➛select_the_vehicle_that_you_need","reference":"x_848642_loaner_0_loaner_vehicle_catalog","reference_display":"Loaner Vehicle Catalog","type":"reference","base_type":"reference","attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}},{"name":"aa2da51c-bb07-4cb6-86e7-f7b77db71314.date_needed","label":"1 - Get Catalog Variables➛date_needed","reference":"","reference_display":"date_needed","type":"glide_date","base_type":"glide_date","attributes":{"catalogType":"9","catalogTypeLabel":"Date"}},{"name":"aa2da51c-bb07-4cb6-86e7-f7b77db71314.date_to_return","label":"1 - Get Catalog Variables➛date_to_return","reference":"","reference_display":"date_to_return","type":"glide_date","base_type":"glide_date","attributes":{"catalogType":"9","catalogTypeLabel":"Date"}},{"name":"aa2da51c-bb07-4cb6-86e7-f7b77db71314.office_location","label":"1 - Get Catalog Variables➛office_location","reference":"cmn_location","reference_display":"Location","type":"reference","base_type":"reference","attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}},{"name":"aa2da51c-bb07-4cb6-86e7-f7b77db71314.delivery_information","label":"1 - Get Catalog Variables➛delivery_information","reference":"","reference_display":"delivery_information","type":"multi_small","base_type":"multi_small","attributes":{"catalogType":"2","catalogTypeLabel":"Multi Line Text"}},{"name":"aa2da51c-bb07-4cb6-86e7-f7b77db71314.additional_comments","label":"1 - Get Catalog Variables➛additional_comments","reference":"","reference_display":"additional_comments","type":"multi_small","base_type":"multi_small","attributes":{"catalogType":"2","catalogTypeLabel":"Multi Line Text"}},{"name":"ab4093f3-4377-4d6a-8efd-b8040b8fc768.approval_state","label":"3 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ab4093f3-4377-4d6a-8efd-b8040b8fc768.__action_status__","label":"3 - Ask For Approval➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ab4093f3-4377-4d6a-8efd-b8040b8fc768.__dont_treat_as_error__","label":"3 - Ask For Approval➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"{{static.3413364f97f32110791bff36f053afaa}}","label":"Loaner Vehicle Approvers  - Service Catalog","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference"},{"name":"ef99eaf6-7532-4b57-b995-29bd7c9294a7.record","label":"5 - Create Record➛Group Member Record","reference":"sys_user_grmember","reference_display":"Group Member","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ef99eaf6-7532-4b57-b995-29bd7c9294a7.table_name","label":"5 - Create Record➛Group Member Table","reference":"sys_user_grmember","reference_display":"Group Member","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ef99eaf6-7532-4b57-b995-29bd7c9294a7.__action_status__","label":"5 - Create Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ef99eaf6-7532-4b57-b995-29bd7c9294a7.__dont_treat_as_error__","label":"5 - Create Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"bd7cfef8-c3fe-499d-8c9d-d44249a76ce7.record","label":"2 - Create Record➛Vehicle Tracker Record","reference":"x_848642_loaner_0_vehicle_tracker","reference_display":"Vehicle Tracker","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"bd7cfef8-c3fe-499d-8c9d-d44249a76ce7.table_name","label":"2 - Create Record➛Vehicle Tracker Table","reference":"x_848642_loaner_0_vehicle_tracker","reference_display":"Vehicle Tracker","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"bd7cfef8-c3fe-499d-8c9d-d44249a76ce7.__action_status__","label":"2 - Create Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"bd7cfef8-c3fe-499d-8c9d-d44249a76ce7.__dont_treat_as_error__","label":"2 - Create Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"5c44d03c-63a4-4518-ada9-b5572214b5e3.record","label":"6 - Update Record➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"5c44d03c-63a4-4518-ada9-b5572214b5e3.table_name","label":"6 - Update Record➛Requested Item Table","reference":"sc_req_item","reference_display":"Requested Item","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"5c44d03c-63a4-4518-ada9-b5572214b5e3.__action_status__","label":"6 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"5c44d03c-63a4-4518-ada9-b5572214b5e3.__dont_treat_as_error__","label":"6 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"630a759f-d4b2-4fec-8719-04ad875b826b.record","label":"8 - Update Record➛User Record","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"630a759f-d4b2-4fec-8719-04ad875b826b.table_name","label":"8 - Update Record➛User Table","reference":"sys_user","reference_display":"User","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"630a759f-d4b2-4fec-8719-04ad875b826b.__action_status__","label":"8 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"630a759f-d4b2-4fec-8719-04ad875b826b.__dont_treat_as_error__","label":"8 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"aa2da51c-bb07-4cb6-86e7-f7b77db71314.select_the_vehicle_that_you_need.status","label":"1➛select_the_vehicle_that_you_need➛Status","reference":"","reference_display":"Status","type":"choice","base_type":"choice","parent_table_name":"x_848642_loaner_0_loaner_vehicle_catalog","column_name":"status","choices":[{"label":"-- None --","used":false,"image":"","missing":false,"selected":false,"reference":false,"rawLabel":"-- None --","value":""},{"used":false,"image":"","missing":false,"label":"Available","selected":false,"reference":false,"rawLabel":"Available","value":"available","parameters":{"name":"x_848642_loaner_0_loaner_vehicle_catalog"}},{"used":false,"image":"","missing":false,"label":"Maintenance","selected":false,"reference":false,"rawLabel":"Maintenance","value":"Maintenance","parameters":{"name":"x_848642_loaner_0_loaner_vehicle_catalog"}},{"used":false,"image":"","missing":false,"label":"Out on Field","selected":false,"reference":false,"rawLabel":"Out on Field","value":"Out on Field","parameters":{"name":"x_848642_loaner_0_loaner_vehicle_catalog"}},{"used":false,"image":"","missing":false,"label":"Unavailable","selected":false,"reference":false,"rawLabel":"Unavailable","value":"unavailable","parameters":{"name":"x_848642_loaner_0_loaner_vehicle_catalog"}},{"used":false,"image":"","missing":false,"label":"Decommissioned","selected":false,"reference":false,"rawLabel":"Decommissioned","value":"decommissioned","parameters":{"name":"x_848642_loaner_0_loaner_vehicle_catalog"}}]},{"name":"6a110ffd-ef0a-4227-8329-b54258b84447.record","label":"9 - Update Record➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"6a110ffd-ef0a-4227-8329-b54258b84447.table_name","label":"9 - Update Record➛Requested Item Table","reference":"sc_req_item","reference_display":"Requested Item","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"6a110ffd-ef0a-4227-8329-b54258b84447.__action_status__","label":"9 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"6a110ffd-ef0a-4227-8329-b54258b84447.__dont_treat_as_error__","label":"9 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <label_cache>[{"name":"0defcb91-aca9-41ba-ad4c-429aaab93e70.__dont_treat_as_error__","label":"3 - Ask For Approval➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"0defcb91-aca9-41ba-ad4c-429aaab93e70.__action_status__","label":"3 - Ask For Approval➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"0defcb91-aca9-41ba-ad4c-429aaab93e70.approval_state","label":"3 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4c352198-7a9b-4dc6-a2d3-f7cda9c73a60.__dont_treat_as_error__","label":"3 - Create Catalog Task➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"4c352198-7a9b-4dc6-a2d3-f7cda9c73a60.__action_status__","label":"3 - Create Catalog Task➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"4c352198-7a9b-4dc6-a2d3-f7cda9c73a60.Catalog Task","label":"3 - Create Catalog Task➛Catalog Task","reference":"sc_task","reference_display":"Catalog Task","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"bd7cfef8-c3fe-499d-8c9d-d44249a76ce7.record.assigned_to.department","label":"2 - Create Record➛Vehicle Tracker Record➛Assigned to➛Department","reference":"cmn_department","reference_display":"Department","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"department"},{"name":"60cf3ccc-d393-4bae-8abb-093867742dd5.__dont_treat_as_error__","label":"4 - Wait For Condition➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"60cf3ccc-d393-4bae-8abb-093867742dd5.__action_status__","label":"4 - Wait For Condition➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"60cf3ccc-d393-4bae-8abb-093867742dd5.state","label":"4 - Wait For Condition➛State","reference_display":"State","type":"choice","base_type":"choice","choices":[{"label":"Complete","value":"0","order":0.0},{"label":"Timeout","value":"1","order":1.0}],"attributes":{"uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"choice","uiUniqueId":"2e334039-7a20-4ead-9148-909988f1a7e4"}},{"name":"df0fc973-9e5e-4552-990b-4cc8936fa811.__dont_treat_as_error__","label":"3 - Wait For Condition➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"df0fc973-9e5e-4552-990b-4cc8936fa811.__action_status__","label":"3 - Wait For Condition➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"df0fc973-9e5e-4552-990b-4cc8936fa811.state","label":"3 - Wait For Condition➛State","reference_display":"State","type":"choice","base_type":"choice","choices":[{"label":"Complete","value":"0","order":0.0},{"label":"Timeout","value":"1","order":1.0}],"attributes":{"uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"choice","uiUniqueId":"2e334039-7a20-4ead-9148-909988f1a7e4"}},{"name":"6a110ffd-ef0a-4227-8329-b54258b84447.__dont_treat_as_error__","label":"9 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"6a110ffd-ef0a-4227-8329-b54258b84447.__action_status__","label":"9 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"6a110ffd-ef0a-4227-8329-b54258b84447.table_name","label":"9 - Update Record➛Requested Item Table","reference":"sc_req_item","reference_display":"Requested Item","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"6a110ffd-ef0a-4227-8329-b54258b84447.record","label":"9 - Update Record➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"aa2da51c-bb07-4cb6-86e7-f7b77db71314.select_the_vehicle_that_you_need.status","label":"1➛select_the_vehicle_that_you_need➛Status","reference":"","reference_display":"Status","type":"choice","base_type":"choice","parent_table_name":"x_848642_loaner_0_loaner_vehicle_catalog","column_name":"status","choices":[{"label":"-- None --","used":false,"image":"","reference":false,"selected":false,"missing":false,"rawLabel":"-- None --","value":""},{"label":"Available","used":false,"image":"","reference":false,"selected":false,"missing":false,"rawLabel":"Available","value":"available","parameters":{"name":"x_848642_loaner_0_loaner_vehicle_catalog"}},{"label":"Maintenance","used":false,"image":"","reference":false,"selected":false,"missing":false,"rawLabel":"Maintenance","value":"Maintenance","parameters":{"name":"x_848642_loaner_0_loaner_vehicle_catalog"}},{"label":"Out on Field","used":false,"image":"","reference":false,"selected":false,"missing":false,"rawLabel":"Out on Field","value":"Out on Field","parameters":{"name":"x_848642_loaner_0_loaner_vehicle_catalog"}},{"label":"Unavailable","used":false,"image":"","reference":false,"selected":false,"missing":false,"rawLabel":"Unavailable","value":"unavailable","parameters":{"name":"x_848642_loaner_0_loaner_vehicle_catalog"}},{"label":"Decommissioned","used":false,"image":"","reference":false,"selected":false,"missing":false,"rawLabel":"Decommissioned","value":"decommissioned","parameters":{"name":"x_848642_loaner_0_loaner_vehicle_catalog"}}]},{"name":"630a759f-d4b2-4fec-8719-04ad875b826b.__dont_treat_as_error__","label":"8 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"630a759f-d4b2-4fec-8719-04ad875b826b.__action_status__","label":"8 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"630a759f-d4b2-4fec-8719-04ad875b826b.table_name","label":"8 - Update Record➛User Table","reference":"sys_user","reference_display":"User","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"630a759f-d4b2-4fec-8719-04ad875b826b.record","label":"8 - Update Record➛User Record","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"5c44d03c-63a4-4518-ada9-b5572214b5e3.__dont_treat_as_error__","label":"6 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"5c44d03c-63a4-4518-ada9-b5572214b5e3.__action_status__","label":"6 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"5c44d03c-63a4-4518-ada9-b5572214b5e3.table_name","label":"6 - Update Record➛Requested Item Table","reference":"sc_req_item","reference_display":"Requested Item","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"5c44d03c-63a4-4518-ada9-b5572214b5e3.record","label":"6 - Update Record➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"bd7cfef8-c3fe-499d-8c9d-d44249a76ce7.__dont_treat_as_error__","label":"2 - Create Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"bd7cfef8-c3fe-499d-8c9d-d44249a76ce7.__action_status__","label":"2 - Create Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"bd7cfef8-c3fe-499d-8c9d-d44249a76ce7.table_name","label":"2 - Create Record➛Vehicle Tracker Table","reference":"x_848642_loaner_0_vehicle_tracker","reference_display":"Vehicle Tracker","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"bd7cfef8-c3fe-499d-8c9d-d44249a76ce7.record","label":"2 - Create Record➛Vehicle Tracker Record","reference":"x_848642_loaner_0_vehicle_tracker","reference_display":"Vehicle Tracker","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ef99eaf6-7532-4b57-b995-29bd7c9294a7.__dont_treat_as_error__","label":"5 - Create Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ef99eaf6-7532-4b57-b995-29bd7c9294a7.__action_status__","label":"5 - Create Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ef99eaf6-7532-4b57-b995-29bd7c9294a7.table_name","label":"5 - Create Record➛Group Member Table","reference":"sys_user_grmember","reference_display":"Group Member","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ef99eaf6-7532-4b57-b995-29bd7c9294a7.record","label":"5 - Create Record➛Group Member Record","reference":"sys_user_grmember","reference_display":"Group Member","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"{{static.3413364f97f32110791bff36f053afaa}}","label":"Loaner Vehicle Approvers  - Service Catalog","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference"},{"name":"ab4093f3-4377-4d6a-8efd-b8040b8fc768.__dont_treat_as_error__","label":"4 - Ask For Approval➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ab4093f3-4377-4d6a-8efd-b8040b8fc768.__action_status__","label":"4 - Ask For Approval➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ab4093f3-4377-4d6a-8efd-b8040b8fc768.approval_state","label":"4 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"aa2da51c-bb07-4cb6-86e7-f7b77db71314.additional_comments","label":"1 - Get Catalog Variables➛additional_comments","reference":"","reference_display":"additional_comments","type":"multi_small","base_type":"multi_small","attributes":{"catalogType":"2","catalogTypeLabel":"Multi Line Text"}},{"name":"aa2da51c-bb07-4cb6-86e7-f7b77db71314.delivery_information","label":"1 - Get Catalog Variables➛delivery_information","reference":"","reference_display":"delivery_information","type":"multi_small","base_type":"multi_small","attributes":{"catalogType":"2","catalogTypeLabel":"Multi Line Text"}},{"name":"aa2da51c-bb07-4cb6-86e7-f7b77db71314.office_location","label":"1 - Get Catalog Variables➛office_location","reference":"cmn_location","reference_display":"Location","type":"reference","base_type":"reference","attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}},{"name":"aa2da51c-bb07-4cb6-86e7-f7b77db71314.date_to_return","label":"1 - Get Catalog Variables➛date_to_return","reference":"","reference_display":"date_to_return","type":"glide_date","base_type":"glide_date","attributes":{"catalogType":"9","catalogTypeLabel":"Date"}},{"name":"aa2da51c-bb07-4cb6-86e7-f7b77db71314.date_needed","label":"1 - Get Catalog Variables➛date_needed","reference":"","reference_display":"date_needed","type":"glide_date","base_type":"glide_date","attributes":{"catalogType":"9","catalogTypeLabel":"Date"}},{"name":"aa2da51c-bb07-4cb6-86e7-f7b77db71314.select_the_vehicle_that_you_need","label":"1➛select_the_vehicle_that_you_need","reference":"x_848642_loaner_0_loaner_vehicle_catalog","reference_display":"Loaner Vehicle Catalog","type":"reference","base_type":"reference","attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}},{"name":"aa2da51c-bb07-4cb6-86e7-f7b77db71314.requested_for","label":"1 - Get Catalog Variables➛requested_for","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","attributes":{"catalogType":"31","catalogTypeLabel":"Requested For"}},{"name":"be6bb51b-e097-4067-88f1-9063f39444b9.__dont_treat_as_error__","label":"1 - Submit Catalog Item Request➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"be6bb51b-e097-4067-88f1-9063f39444b9.__action_status__","label":"1 - Submit Catalog Item Request➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"be6bb51b-e097-4067-88f1-9063f39444b9.error_message","label":"1 - Submit Catalog Item Request➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"7cf3e70c-55c1-42c4-811a-c6b7ec1692b9"}},{"name":"be6bb51b-e097-4067-88f1-9063f39444b9.requested_item","label":"1 - Submit Catalog Item Request➛Requested Item","reference":"sc_req_item","reference_display":"Requested Item","type":"document_id","base_type":"document_id","attributes":{"uiType":"document_id","uiTypeLabel":"Document ID","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"aad3452b-309c-469c-9797-4df9ef6f86be"}},{"name":"be6bb51b-e097-4067-88f1-9063f39444b9.status","label":"1 - Submit Catalog Item Request➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Success","value":"0","order":0.0},{"label":"Error","value":"1","order":1.0},{"label":"Timeout","value":"2","order":2.0}],"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"eacb2914-9214-441b-ac02-5703c4d8b6ee"}},{"name":"611ee8b3-663e-41f0-9419-2ead31a2398e.approval_state","label":"1 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"611ee8b3-663e-41f0-9419-2ead31a2398e.__action_status__","label":"1 - Ask For Approval➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"611ee8b3-663e-41f0-9419-2ead31a2398e.__dont_treat_as_error__","label":"1 - Ask For Approval➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"Service Catalog_1.request_item","label":"Trigger - Service Catalog➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"default_search_field":"number"}},{"name":"Service Catalog_1.run_start_date_time","label":"Trigger - Service Catalog➛Run Start Date/Time","type":"glide_date_time","base_type":"glide_date_time","attributes":{"test_input_hidden":"true"}},{"name":"bffe4417-126b-4553-80bb-6bb111058ccf.Catalog Task","label":"5 - Create Catalog Task➛Catalog Task","reference":"sc_task","reference_display":"Catalog Task","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"bffe4417-126b-4553-80bb-6bb111058ccf.__action_status__","label":"5 - Create Catalog Task➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"bffe4417-126b-4553-80bb-6bb111058ccf.__dont_treat_as_error__","label":"5 - Create Catalog Task➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"bd7cfef8-c3fe-499d-8c9d-d44249a76ce7.record.group","label":"2 - Create Record➛Vehicle Tracker Record➛Group","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","parent_table_name":"sys_user_grmember","column_name":"group"},{"name":"Service Catalog_1.request_item.delivery_task","label":"Trigger - Service Catalog➛Requested Item Record➛Delivery task","reference":"sc_cat_item_delivery_task","reference_display":"Execution Plan Task","type":"reference","base_type":"reference","parent_table_name":"sc_req_item","column_name":"delivery_task"},{"name":"bd7cfef8-c3fe-499d-8c9d-d44249a76ce7.record.group.name","label":"2 - Create Record➛Vehicle Tracker Record➛Group➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user_group","column_name":"name"},{"name":"96896df2-aa5f-48d9-8ef3-f124089ad5b8.answer","label":"7 - Make a decision➛Answer","reference_display":"Answer","type":"document_id","base_type":"document_id","attributes":{}},{"name":"96896df2-aa5f-48d9-8ef3-f124089ad5b8.table_name","label":"7 - Make a decision➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{}},{"name":"a560d375-6638-4e57-a122-eac17de20e4f.record","label":"7 - Update Record➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a560d375-6638-4e57-a122-eac17de20e4f.table_name","label":"7 - Update Record➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a560d375-6638-4e57-a122-eac17de20e4f.__action_status__","label":"7 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"a560d375-6638-4e57-a122-eac17de20e4f.__dont_treat_as_error__","label":"7 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"96d60166-432a-41f3-b213-5b229d42f35b.record","label":"9 - Update Record➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"96d60166-432a-41f3-b213-5b229d42f35b.table_name","label":"9 - Update Record➛Requested Item Table","reference":"sc_req_item","reference_display":"Requested Item","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"96d60166-432a-41f3-b213-5b229d42f35b.__action_status__","label":"9 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"96d60166-432a-41f3-b213-5b229d42f35b.__dont_treat_as_error__","label":"9 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"21935eda-1e2a-4bb7-9a2a-742feb74f942.record","label":"10 - Update Record➛Vehicle Tracker Record","reference":"x_848642_loaner_0_vehicle_tracker","reference_display":"Vehicle Tracker","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"21935eda-1e2a-4bb7-9a2a-742feb74f942.table_name","label":"10 - Update Record➛Vehicle Tracker Table","reference":"x_848642_loaner_0_vehicle_tracker","reference_display":"Vehicle Tracker","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"21935eda-1e2a-4bb7-9a2a-742feb74f942.__action_status__","label":"10 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"21935eda-1e2a-4bb7-9a2a-742feb74f942.__dont_treat_as_error__","label":"10 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"aa2da51c-bb07-4cb6-86e7-f7b77db71314.select_the_vehicle_that_you_need.sys_mod_count","label":"1➛select_the_vehicle_that_you_need➛Updates","reference":"","reference_display":"Updates","type":"integer","base_type":"integer","parent_table_name":"x_848642_loaner_0_loaner_vehicle_catalog","column_name":"sys_mod_count"},{"name":"1d73e316-3f38-45cc-bc8e-0d0424a68b23.record","label":"7 - Update Record➛Vehicle Tracker Record","reference":"x_848642_loaner_0_vehicle_tracker","reference_display":"Vehicle Tracker","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1d73e316-3f38-45cc-bc8e-0d0424a68b23.table_name","label":"7 - Update Record➛Vehicle Tracker Table","reference":"x_848642_loaner_0_vehicle_tracker","reference_display":"Vehicle Tracker","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1d73e316-3f38-45cc-bc8e-0d0424a68b23.__action_status__","label":"7 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1d73e316-3f38-45cc-bc8e-0d0424a68b23.__dont_treat_as_error__","label":"7 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"aa2da51c-bb07-4cb6-86e7-f7b77db71314.select_vehicle","label":"1 - Get Catalog Variables➛select_vehicle","reference":"x_848642_loaner_0_loaner_vehicle_catalog","reference_display":"Loaner Vehicle Catalog","type":"reference","base_type":"reference","attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}},{"name":"dfeb8435-2bdb-4e94-af32-c910754a1447.total_duration","label":"4 - Wait for a duration of time➛Total Duration","reference_display":"Total Duration","type":"glide_duration","base_type":"glide_duration","attributes":{"pills_draggable_inside_block":"false","pills_draggable_outside_block":"true"}},{"name":"dfeb8435-2bdb-4e94-af32-c910754a1447.scheduled_end_date_time","label":"4 - Wait for a duration of time➛Scheduled End date/time","reference_display":"Scheduled End date/time","type":"glide_date_time","base_type":"glide_date_time","attributes":{"pills_draggable_inside_block":"false","pills_draggable_outside_block":"true"}},{"name":"82e2fd94-1461-44ee-afff-1798bba19244.state","label":"4 - Wait For Condition➛State","reference_display":"State","type":"choice","base_type":"choice","choices":[{"label":"Complete","value":"0","order":0.0},{"label":"Timeout","value":"1","order":1.0}],"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"2e334039-7a20-4ead-9148-909988f1a7e4"}},{"name":"82e2fd94-1461-44ee-afff-1798bba19244.__action_status__","label":"4 - Wait For Condition➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"82e2fd94-1461-44ee-afff-1798bba19244.__dont_treat_as_error__","label":"4 - Wait For Condition➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Service Catalog_1.request_item.assigned_to.manager","label":"Trigger - Service Catalog➛Requested Item Record➛Assigned to➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager"}]</label_cache>
         <master>true</master>
         <name>Loaner Vehicle Flow</name>
         <natlang/>
@@ -1305,15 +1318,15 @@ Loaner Vehicle Delivery Task” and assign it to the Loaner Vehicle Delivery Gro
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>3eebf9d397ff2110791bff36f053afde</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Loaner Vehicle Request and Inventory">84aafe80976b2110791bff36f053af21</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>seanb</sys_updated_by>
-        <sys_updated_on>2023-07-18 04:07:21</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-09 21:49:34</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow_snapshot>
     <sys_translated_text action="delete_multiple" query="documentkey=3eebf9d397ff2110791bff36f053afde"/>
@@ -1328,10 +1341,10 @@ Loaner Vehicle Delivery Task” and assign it to the Loaner Vehicle Delivery Gro
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-07-08 09:22:31</sys_created_on>
         <sys_id>0feb3dd397ff2110791bff36f053af63</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>38</sys_mod_count>
         <sys_scope/>
-        <sys_updated_by>seanb</sys_updated_by>
-        <sys_updated_on>2023-07-18 04:07:23</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-09 21:49:35</sys_updated_on>
         <trigger_definition display_value="Service Catalog">c43a1011c36813002841b63b12d3ae15</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -1415,14 +1428,14 @@ Loaner Vehicle Delivery Task” and assign it to the Loaner Vehicle Delivery Gro
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-07-08 09:22:30</sys_created_on>
         <sys_id>3aeb3dd397ff2110791bff36f053af1f</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>25</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Loaner Vehicle Request and Inventory">84aafe80976b2110791bff36f053af21</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>seanb</sys_updated_by>
-        <sys_updated_on>2023-07-18 04:07:21</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-09 21:49:34</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1496,14 +1509,14 @@ Loaner Vehicle Delivery Task” and assign it to the Loaner Vehicle Delivery Gro
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-07-08 09:22:29</sys_created_on>
         <sys_id>3aebf9d397ff2110791bff36f053afe1</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>26</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Loaner Vehicle Request and Inventory">84aafe80976b2110791bff36f053af21</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>seanb</sys_updated_by>
-        <sys_updated_on>2023-07-18 04:07:21</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-09 21:49:34</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1517,7 +1530,7 @@ Loaner Vehicle Delivery Task” and assign it to the Loaner Vehicle Delivery Gro
     </sys_hub_flow_input>
     <sys_hub_flow_output action="delete_multiple" query="model=3eebf9d397ff2110791bff36f053afde"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=3eebf9d397ff2110791bff36f053afde"/>
-    <sys_hub_action_instance action="delete_multiple" query="flow=3eebf9d397ff2110791bff36f053afde^sys_idNOT IN0beb3dd397ff2110791bff36f053af49,3ba3102e97c43110791bff36f053afee,87eb3dd397ff2110791bff36f053af37,87eb3dd397ff2110791bff36f053af5c,8beb3dd397ff2110791bff36f053af40,8beb3dd397ff2110791bff36f053af53,c4b3102e97c43110791bff36f053aff7,cfeb3dd397ff2110791bff36f053af61"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=3eebf9d397ff2110791bff36f053afde^sys_idNOT IN0beb3dd397ff2110791bff36f053af49,3ba3102e97c43110791bff36f053afee,7e32312597243110791bff36f053af9f,87eb3dd397ff2110791bff36f053af37,87eb3dd397ff2110791bff36f053af5c,8beb3dd397ff2110791bff36f053af53,c4b3102e97c43110791bff36f053aff7,cfeb3dd397ff2110791bff36f053af61"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
@@ -1532,10 +1545,10 @@ Loaner Vehicle Delivery Task” and assign it to the Loaner Vehicle Delivery Gro
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-07-08 09:22:30</sys_created_on>
         <sys_id>0beb3dd397ff2110791bff36f053af49</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>54</sys_mod_count>
         <sys_scope display_value="Loaner Vehicle Request and Inventory">84aafe80976b2110791bff36f053af21</sys_scope>
-        <sys_updated_by>seanb</sys_updated_by>
-        <sys_updated_on>2023-07-18 04:07:21</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-09 21:49:34</sys_updated_on>
         <ui_id>bd7cfef8-c3fe-499d-8c9d-d44249a76ce7</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=0beb3dd397ff2110791bff36f053af49"/>
@@ -1572,11 +1585,11 @@ Loaner Vehicle Delivery Task” and assign it to the Loaner Vehicle Delivery Gro
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-07-08 09:22:30</sys_created_on>
         <sys_id>8feb3dd397ff2110791bff36f053af4a</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>seanb</sys_updated_by>
-        <sys_updated_on>2023-07-18 04:07:20</sys_updated_on>
+        <sys_updated_on>2023-07-31 11:35:44</sys_updated_on>
         <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
-        <value>request_number={{Service Catalog_1.request_item}}^assigned_to={{aa2da51c-bb07-4cb6-86e7-f7b77db71314.requested_for}}^vehicle={{aa2da51c-bb07-4cb6-86e7-f7b77db71314.select_the_vehicle_that_you_need}}^date_requested={{aa2da51c-bb07-4cb6-86e7-f7b77db71314.date_needed}}^expected_return_date={{aa2da51c-bb07-4cb6-86e7-f7b77db71314.date_to_return}}^location={{aa2da51c-bb07-4cb6-86e7-f7b77db71314.office_location}}^delivery_information={{aa2da51c-bb07-4cb6-86e7-f7b77db71314.delivery_information}}^additional_comments={{aa2da51c-bb07-4cb6-86e7-f7b77db71314.additional_comments}}^vehicle_status=Pending Release^tracker_status=Open</value>
+        <value>request_number={{Service Catalog_1.request_item}}^assigned_to={{aa2da51c-bb07-4cb6-86e7-f7b77db71314.requested_for}}^vehicle={{aa2da51c-bb07-4cb6-86e7-f7b77db71314.select_vehicle}}^date_requested={{aa2da51c-bb07-4cb6-86e7-f7b77db71314.date_needed}}^expected_return_date={{aa2da51c-bb07-4cb6-86e7-f7b77db71314.date_to_return}}^location={{aa2da51c-bb07-4cb6-86e7-f7b77db71314.office_location}}^delivery_information={{aa2da51c-bb07-4cb6-86e7-f7b77db71314.delivery_information}}^additional_comments={{aa2da51c-bb07-4cb6-86e7-f7b77db71314.additional_comments}}^vehicle_status=Pending Release^tracker_status=Open</value>
     </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=0beb3dd397ff2110791bff36f053af49"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=0beb3dd397ff2110791bff36f053af49"/>
@@ -1594,10 +1607,10 @@ Loaner Vehicle Delivery Task” and assign it to the Loaner Vehicle Delivery Gro
         <sys_created_by>seanb</sys_created_by>
         <sys_created_on>2023-07-18 04:07:20</sys_created_on>
         <sys_id>3ba3102e97c43110791bff36f053afee</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>42</sys_mod_count>
         <sys_scope display_value="Loaner Vehicle Request and Inventory">84aafe80976b2110791bff36f053af21</sys_scope>
-        <sys_updated_by>seanb</sys_updated_by>
-        <sys_updated_on>2023-07-18 04:07:21</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-09 21:49:34</sys_updated_on>
         <ui_id>1d73e316-3f38-45cc-bc8e-0d0424a68b23</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=3ba3102e97c43110791bff36f053afee"/>
@@ -1671,6 +1684,158 @@ Loaner Vehicle Delivery Task” and assign it to the Loaner Vehicle Delivery Gro
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
+        <action_type display_value="Ask For Approval">f8f2e9920b10030085c083eb37673abd</action_type>
+        <action_type_parent display_value="Ask For Approval">bae0a1120b10030085c083eb37673a92</action_type_parent>
+        <comment/>
+        <display_text/>
+        <flow display_value="Loaner Vehicle Flow">3eebf9d397ff2110791bff36f053afde</flow>
+        <order>3</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-09 04:57:53</sys_created_on>
+        <sys_id>7e32312597243110791bff36f053af9f</sys_id>
+        <sys_mod_count>32</sys_mod_count>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory">84aafe80976b2110791bff36f053af21</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-09 21:49:34</sys_updated_on>
+        <ui_id>0defcb91-aca9-41ba-ad4c-429aaab93e70</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=7e32312597243110791bff36f053af9f"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>7e32312597243110791bff36f053af9f</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-09 04:57:53</sys_created_on>
+        <sys_id>3a32312597243110791bff36f053afa2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-09 04:57:53</sys_updated_on>
+        <value>approval_history</value>
+        <variable display_value="Journal Field">c1f2e9920b10030085c083eb37673ae3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>7e32312597243110791bff36f053af9f</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-09 04:57:53</sys_created_on>
+        <sys_id>7632312597243110791bff36f053afa2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-09 04:57:53</sys_updated_on>
+        <value>approval</value>
+        <variable display_value="Approval Field">01f2e9920b10030085c083eb37673ad8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>7e32312597243110791bff36f053af9f</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-09 04:57:53</sys_created_on>
+        <sys_id>be32312597243110791bff36f053afa2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-09 04:57:53</sys_updated_on>
+        <value>sc_req_item</value>
+        <variable display_value="Table">bcf2e9920b10030085c083eb37673acc</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>7e32312597243110791bff36f053af9f</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-09 04:57:53</sys_created_on>
+        <sys_id>fa32312597243110791bff36f053afa2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-09 04:57:53</sys_updated_on>
+        <value/>
+        <variable display_value="Due Date">c5f2e9920b10030085c083eb37673af9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=7e32312597243110791bff36f053af9f"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>approval_conditions</field>
+        <id>7e32312597243110791bff36f053af9f</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-09 04:57:53</sys_created_on>
+        <sys_id>3232312597243110791bff36f053afa2</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-09 12:57:52</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value>ApprovesAnyG[{{static.3413364f97f32110791bff36f053afaa}}]</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>approval_field</field>
+        <id>7e32312597243110791bff36f053af9f</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-09 04:57:53</sys_created_on>
+        <sys_id>3632312597243110791bff36f053afa1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-09 04:57:53</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>due_date</field>
+        <id>7e32312597243110791bff36f053af9f</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-09 04:57:53</sys_created_on>
+        <sys_id>7e32312597243110791bff36f053afa1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-09 04:57:53</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value>{"action":"none","date_type":"actual","date":"{{}}","duration":1,"duration_type":"days","schedule":"","schedule_label":""}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>journal_field</field>
+        <id>7e32312597243110791bff36f053af9f</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-09 04:57:53</sys_created_on>
+        <sys_id>f632312597243110791bff36f053afa1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-09 04:57:53</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>7e32312597243110791bff36f053af9f</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-09 04:57:53</sys_created_on>
+        <sys_id>ba32312597243110791bff36f053afa1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-09 04:57:53</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value>{{Service Catalog_1.request_item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>7e32312597243110791bff36f053af9f</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-09 04:57:53</sys_created_on>
+        <sys_id>f232312597243110791bff36f053afa2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-09 04:57:53</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=7e32312597243110791bff36f053af9f"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=7e32312597243110791bff36f053af9f"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
         <action_type display_value="Get Catalog Variables">330ba3abc31013002841b63b12d3aee8</action_type>
         <action_type_parent display_value="Get Catalog Variables">22f0b88cc3c632002841b63b12d3aeff</action_type_parent>
         <comment/>
@@ -1682,10 +1847,10 @@ Loaner Vehicle Delivery Task” and assign it to the Loaner Vehicle Delivery Gro
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-07-08 09:22:30</sys_created_on>
         <sys_id>87eb3dd397ff2110791bff36f053af37</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>54</sys_mod_count>
         <sys_scope display_value="Loaner Vehicle Request and Inventory">84aafe80976b2110791bff36f053af21</sys_scope>
-        <sys_updated_by>seanb</sys_updated_by>
-        <sys_updated_on>2023-07-18 04:07:21</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-09 21:49:34</sys_updated_on>
         <ui_id>aa2da51c-bb07-4cb6-86e7-f7b77db71314</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=87eb3dd397ff2110791bff36f053af37"/>
@@ -1770,10 +1935,10 @@ Loaner Vehicle Delivery Task” and assign it to the Loaner Vehicle Delivery Gro
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-07-08 09:22:31</sys_created_on>
         <sys_id>87eb3dd397ff2110791bff36f053af5c</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>48</sys_mod_count>
         <sys_scope display_value="Loaner Vehicle Request and Inventory">84aafe80976b2110791bff36f053af21</sys_scope>
-        <sys_updated_by>seanb</sys_updated_by>
-        <sys_updated_on>2023-07-18 04:07:21</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-09 21:49:34</sys_updated_on>
         <ui_id>5c44d03c-63a4-4518-ada9-b5572214b5e3</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=87eb3dd397ff2110791bff36f053af5c"/>
@@ -1847,158 +2012,6 @@ Loaner Vehicle Delivery Task” and assign it to the Loaner Vehicle Delivery Gro
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
-        <action_type display_value="Ask For Approval">f8f2e9920b10030085c083eb37673abd</action_type>
-        <action_type_parent display_value="Ask For Approval">bae0a1120b10030085c083eb37673a92</action_type_parent>
-        <comment/>
-        <display_text/>
-        <flow display_value="Loaner Vehicle Flow">3eebf9d397ff2110791bff36f053afde</flow>
-        <order>3</order>
-        <parent_ui_id/>
-        <sys_class_name>sys_hub_action_instance</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-07-08 09:22:30</sys_created_on>
-        <sys_id>8beb3dd397ff2110791bff36f053af40</sys_id>
-        <sys_mod_count>10</sys_mod_count>
-        <sys_scope display_value="Loaner Vehicle Request and Inventory">84aafe80976b2110791bff36f053af21</sys_scope>
-        <sys_updated_by>seanb</sys_updated_by>
-        <sys_updated_on>2023-07-18 04:07:21</sys_updated_on>
-        <ui_id>ab4093f3-4377-4d6a-8efd-b8040b8fc768</ui_id>
-    </sys_hub_action_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=8beb3dd397ff2110791bff36f053af40"/>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_action_instance</document>
-        <document_key>8beb3dd397ff2110791bff36f053af40</document_key>
-        <order>5</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-07-08 09:22:30</sys_created_on>
-        <sys_id>0feb3dd397ff2110791bff36f053af43</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-08 09:22:30</sys_updated_on>
-        <value/>
-        <variable display_value="Due Date">c5f2e9920b10030085c083eb37673af9</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_action_instance</document>
-        <document_key>8beb3dd397ff2110791bff36f053af40</document_key>
-        <order>3</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-07-08 09:22:30</sys_created_on>
-        <sys_id>4beb3dd397ff2110791bff36f053af43</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-08 09:22:30</sys_updated_on>
-        <value>approval_history</value>
-        <variable display_value="Journal Field">c1f2e9920b10030085c083eb37673ae3</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_action_instance</document>
-        <document_key>8beb3dd397ff2110791bff36f053af40</document_key>
-        <order>2</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-07-08 09:22:30</sys_created_on>
-        <sys_id>87eb3dd397ff2110791bff36f053af43</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-08 09:22:30</sys_updated_on>
-        <value>approval</value>
-        <variable display_value="Approval Field">01f2e9920b10030085c083eb37673ad8</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_action_instance</document>
-        <document_key>8beb3dd397ff2110791bff36f053af40</document_key>
-        <order>1</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-07-08 09:22:30</sys_created_on>
-        <sys_id>cfeb3dd397ff2110791bff36f053af43</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-08 09:22:30</sys_updated_on>
-        <value>sc_req_item</value>
-        <variable display_value="Table">bcf2e9920b10030085c083eb37673acc</variable>
-    </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=8beb3dd397ff2110791bff36f053af40"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>approval_conditions</field>
-        <id>8beb3dd397ff2110791bff36f053af40</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-07-08 09:22:30</sys_created_on>
-        <sys_id>43eb3dd397ff2110791bff36f053af43</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-08 09:22:30</sys_updated_on>
-        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
-        <value>ApprovesAnyG[{{static.3413364f97f32110791bff36f053afaa}}]</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>approval_field</field>
-        <id>8beb3dd397ff2110791bff36f053af40</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-07-08 09:22:30</sys_created_on>
-        <sys_id>47eb3dd397ff2110791bff36f053af42</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-08 09:22:30</sys_updated_on>
-        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>due_date</field>
-        <id>8beb3dd397ff2110791bff36f053af40</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-07-08 09:22:30</sys_created_on>
-        <sys_id>8feb3dd397ff2110791bff36f053af42</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-08 09:22:30</sys_updated_on>
-        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
-        <value>{"action":"none","date_type":"actual","date":"{{}}","duration":1,"duration_type":"days","schedule":"","schedule_label":""}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>journal_field</field>
-        <id>8beb3dd397ff2110791bff36f053af40</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-07-08 09:22:30</sys_created_on>
-        <sys_id>0beb3dd397ff2110791bff36f053af42</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-08 09:22:30</sys_updated_on>
-        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>record</field>
-        <id>8beb3dd397ff2110791bff36f053af40</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-07-08 09:22:30</sys_created_on>
-        <sys_id>cbeb3dd397ff2110791bff36f053af42</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-08 09:22:30</sys_updated_on>
-        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
-        <value>{{Service Catalog_1.request_item}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>table</field>
-        <id>8beb3dd397ff2110791bff36f053af40</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-07-08 09:22:30</sys_created_on>
-        <sys_id>07eb3dd397ff2110791bff36f053af43</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-08 09:22:30</sys_updated_on>
-        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_hub_input_scripts action="delete_multiple" query="instance=8beb3dd397ff2110791bff36f053af40"/>
-    <sys_hub_alias_mapping action="delete_multiple" query="source_id=8beb3dd397ff2110791bff36f053af40"/>
-    <sys_hub_action_instance action="INSERT_OR_UPDATE">
-        <action_inputs/>
-        <action_inputs/>
         <action_type display_value="Create Catalog Task">af51fd0e73141300612c273ffff6a785</action_type>
         <action_type_parent display_value="Create Catalog Task">f597c41073081300612c273ffff6a767</action_type_parent>
         <comment/>
@@ -2010,10 +2023,10 @@ Loaner Vehicle Delivery Task” and assign it to the Loaner Vehicle Delivery Gro
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-07-08 09:22:30</sys_created_on>
         <sys_id>8beb3dd397ff2110791bff36f053af53</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>48</sys_mod_count>
         <sys_scope display_value="Loaner Vehicle Request and Inventory">84aafe80976b2110791bff36f053af21</sys_scope>
-        <sys_updated_by>seanb</sys_updated_by>
-        <sys_updated_on>2023-07-18 04:07:21</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-09 21:49:34</sys_updated_on>
         <ui_id>bffe4417-126b-4553-80bb-6bb111058ccf</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=8beb3dd397ff2110791bff36f053af53"/>
@@ -2044,6 +2057,20 @@ Loaner Vehicle Delivery Task” and assign it to the Loaner Vehicle Delivery Gro
         <sys_updated_on>2023-07-08 09:22:31</sys_updated_on>
         <value>d2078636972fa110791bff36f053af3f:item_option_new,e36ce33597332110791bff36f053afad:item_option_new,33378236972fa110791bff36f053af66:item_option_new,96870e36972fa110791bff36f053af66:item_option_new,c6a74e36972fa110791bff36f053afcd:item_option_new,3f480a36972fa110791bff36f053afbe:item_option_new,df6846b6972fa110791bff36f053afa3:item_option_new</value>
         <variable display_value="Catalog Variables">7b51fd0e73141300612c273ffff6a7be</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>8beb3dd397ff2110791bff36f053af53</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-09 21:40:36</sys_created_on>
+        <sys_id>76b7197d97607110791bff36f053af83</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-09 21:40:36</sys_updated_on>
+        <value> Loaner Vehicle Delivery Task</value>
+        <variable display_value="Short Description">3751fd0e73141300612c273ffff6a7a6</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -2090,12 +2117,11 @@ Loaner Vehicle Delivery Task” and assign it to the Loaner Vehicle Delivery Gro
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-07-08 09:22:31</sys_created_on>
         <sys_id>8beb3dd397ff2110791bff36f053af55</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_updated_by>seanb</sys_updated_by>
-        <sys_updated_on>2023-07-18 04:07:20</sys_updated_on>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-09 21:40:36</sys_updated_on>
         <table>var__m_sys_hub_action_input_af51fd0e73141300612c273ffff6a785</table>
-        <value> {{Service Catalog_1.request_item.delivery_task}}
-Loaner Vehicle Delivery Task” and assign it to the Loaner Vehicle Delivery Group.</value>
+        <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>catalog_variables</field>
@@ -2137,10 +2163,10 @@ Loaner Vehicle Delivery Task” and assign it to the Loaner Vehicle Delivery Gro
         <sys_created_by>seanb</sys_created_by>
         <sys_created_on>2023-07-18 04:07:21</sys_created_on>
         <sys_id>c4b3102e97c43110791bff36f053aff7</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>42</sys_mod_count>
         <sys_scope display_value="Loaner Vehicle Request and Inventory">84aafe80976b2110791bff36f053af21</sys_scope>
-        <sys_updated_by>seanb</sys_updated_by>
-        <sys_updated_on>2023-07-18 04:07:21</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-09 21:49:34</sys_updated_on>
         <ui_id>21935eda-1e2a-4bb7-9a2a-742feb74f942</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=c4b3102e97c43110791bff36f053aff7"/>
@@ -2166,10 +2192,10 @@ Loaner Vehicle Delivery Task” and assign it to the Loaner Vehicle Delivery Gro
         <sys_created_by>seanb</sys_created_by>
         <sys_created_on>2023-07-18 04:07:21</sys_created_on>
         <sys_id>c0b3102e97c43110791bff36f053aff9</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>seanb</sys_updated_by>
-        <sys_updated_on>2023-07-18 04:07:21</sys_updated_on>
-        <value>vehicle_status=Returned to Warehouse^=</value>
+        <sys_updated_on>2023-07-31 11:35:44</sys_updated_on>
+        <value>vehicle_status=Returned to Warehouse^tracker_status=Cancelled</value>
         <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=c4b3102e97c43110791bff36f053aff7"/>
@@ -2238,10 +2264,10 @@ Loaner Vehicle Delivery Task” and assign it to the Loaner Vehicle Delivery Gro
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-07-08 09:22:31</sys_created_on>
         <sys_id>cfeb3dd397ff2110791bff36f053af61</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>48</sys_mod_count>
         <sys_scope display_value="Loaner Vehicle Request and Inventory">84aafe80976b2110791bff36f053af21</sys_scope>
-        <sys_updated_by>seanb</sys_updated_by>
-        <sys_updated_on>2023-07-18 04:07:21</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-09 21:49:34</sys_updated_on>
         <ui_id>6a110ffd-ef0a-4227-8329-b54258b84447</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=cfeb3dd397ff2110791bff36f053af61"/>
@@ -2349,10 +2375,10 @@ Loaner Vehicle Delivery Task” and assign it to the Loaner Vehicle Delivery Gro
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-07-08 09:22:30</sys_created_on>
         <sys_id>43eb3dd397ff2110791bff36f053af2b</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>28</sys_mod_count>
         <sys_scope display_value="Loaner Vehicle Request and Inventory">84aafe80976b2110791bff36f053af21</sys_scope>
-        <sys_updated_by>seanb</sys_updated_by>
-        <sys_updated_on>2023-07-18 04:07:21</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-09 21:49:34</sys_updated_on>
         <ui_id>ac024c56-a67b-4a46-a9aa-9d257b5cd8f5</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2379,11 +2405,11 @@ Loaner Vehicle Delivery Task” and assign it to the Loaner Vehicle Delivery Gro
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-07-08 09:22:30</sys_created_on>
         <sys_id>8beb3dd397ff2110791bff36f053af2e</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-08 09:22:30</sys_updated_on>
+        <sys_updated_on>2023-08-09 12:57:52</sys_updated_on>
         <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
-        <value>{{ab4093f3-4377-4d6a-8efd-b8040b8fc768.approval_state}}=approved</value>
+        <value>{{0defcb91-aca9-41ba-ad4c-429aaab93e70.approval_state}}=approved</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>condition_name</field>
@@ -2420,10 +2446,10 @@ Loaner Vehicle Delivery Task” and assign it to the Loaner Vehicle Delivery Gro
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-07-08 09:22:30</sys_created_on>
         <sys_id>8beb3dd397ff2110791bff36f053af2f</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>28</sys_mod_count>
         <sys_scope display_value="Loaner Vehicle Request and Inventory">84aafe80976b2110791bff36f053af21</sys_scope>
-        <sys_updated_by>seanb</sys_updated_by>
-        <sys_updated_on>2023-07-18 04:07:21</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-09 21:49:34</sys_updated_on>
         <ui_id>1ecc595b-e3ce-4b95-ada8-2a4f534e7415</ui_id>
         <workflow_inputs/>
         <workflow_reference/>

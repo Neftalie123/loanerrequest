@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_table">
+    <sp_instance_table action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <display_field/>
+        <field_list/>
+        <filter/>
+        <glyph>ambulance</glyph>
+        <id/>
+        <maximum_entries>5</maximum_entries>
+        <order>1</order>
+        <order_by/>
+        <order_direction>asc</order_direction>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">dc3d4f4597507110791bff36f053af62</sp_column>
+        <sp_page/>
+        <sp_widget display_value="Data Table from Instance Definition">38058ff1cb11020000f8d856634c9c8c</sp_widget>
+        <sys_class_name>sp_instance_table</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-04 00:28:23</sys_created_on>
+        <sys_id>1e94cf7f97103110791bff36f053afbd</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Vehicle Inventory</sys_name>
+        <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_848642_loaner_0">84aafe80976b2110791bff36f053af21</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory">84aafe80976b2110791bff36f053af21</sys_scope>
+        <sys_update_name>sp_instance_table_1e94cf7f97103110791bff36f053afbd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-04 00:37:59</sys_updated_on>
+        <table>x_848642_loaner_0_vehicle_catalog_table</table>
+        <title>Vehicle Inventory</title>
+        <url/>
+        <widget_parameters/>
+    </sp_instance_table>
+    <sys_translated_text action="DELETE" query="documentkey=1e94cf7f97103110791bff36f053afbd"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Loaner Vehicle Request and Inventory">84aafe80976b2110791bff36f053af21</application>
+        <file_path/>
+        <instance_id>a311cec9dbf8545cf37acac505961954</instance_id>
+        <instance_name>dev103304</instance_name>
+        <name>sp_instance_table_1e94cf7f97103110791bff36f053afbd</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_table"><sp_instance_table action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><display_field/><field_list/><filter/><glyph>ambulance</glyph><id/><maximum_entries>5</maximum_entries><order>1</order><order_by/><order_direction>asc</order_direction><roles/><short_description/><size>md</size><sp_column display_value="1">dc3d4f4597507110791bff36f053af62</sp_column><sp_page/><sp_widget display_value="Data Table from Instance Definition">38058ff1cb11020000f8d856634c9c8c</sp_widget><sys_class_name>sp_instance_table</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-08-04 00:28:23</sys_created_on><sys_id>1e94cf7f97103110791bff36f053afbd</sys_id><sys_mod_count>6</sys_mod_count><sys_name>Vehicle Inventory</sys_name><sys_package display_value="Loaner Vehicle Request and Inventory" source="x_848642_loaner_0">84aafe80976b2110791bff36f053af21</sys_package><sys_policy/><sys_scope display_value="Loaner Vehicle Request and Inventory">84aafe80976b2110791bff36f053af21</sys_scope><sys_update_name>sp_instance_table_1e94cf7f97103110791bff36f053afbd</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-08-04 00:37:59</sys_updated_on><table>x_848642_loaner_0_vehicle_catalog_table</table><title>Vehicle Inventory</title><url/><widget_parameters/></sp_instance_table><sys_translated_text action="delete_multiple" query="documentkey=1e94cf7f97103110791bff36f053afbd"/></record_update>]]></payload>
+        <payload_hash>532933739</payload_hash>
+        <record_name>Vehicle Inventory</record_name>
+        <reverted_from/>
+        <source>fe2cba04976b2110791bff36f053afa1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-04 00:37:59</sys_created_on>
+        <sys_id>76c643ff97103110791bff36f053af73</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>189bdfad2db0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-04 00:37:59</sys_updated_on>
+        <type>Instance with Table</type>
+        <update_guid>7ec643ff0c1031100430594244187172</update_guid>
+        <update_guid_history>7ec643ff0c1031100430594244187172:532933739,d346c7ffad10311000816f02285eebad:-209717062,dcf547ffe810311038a5341e7c726fe3:1923172037,94c58f7fab103110fb5bab6068f40369:532933739,cba543fbbe1031102630457279b06fee:-1791135242,889507bf781031108356bc5f76bea26e:1923172037,de94cf7f60103110627d285b3e679dc1:-137983716</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Vehicle Inventory">1c270fff97103110791bff36f053af51</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-04 00:39:27</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_table">sp_instance_table</sys_db_object>
+        <sys_id>81031a0fd0b64522a9da9bdb7e70c7b1</sys_id>
+        <sys_metadata>1e94cf7f97103110791bff36f053afbd</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Vehicle Inventory</sys_name>
+        <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_848642_loaner_0">84aafe80976b2110791bff36f053af21</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory">84aafe80976b2110791bff36f053af21</sys_scope>
+        <sys_scope_delete display_value="">6abaec93f15247e4b4fa6938ed2441e4</sys_scope_delete>
+        <sys_update_name>sp_instance_table_1e94cf7f97103110791bff36f053afbd</sys_update_name>
+        <sys_update_version display_value="sp_instance_table_1e94cf7f97103110791bff36f053afbd">76c643ff97103110791bff36f053af73</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-04 00:39:27</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

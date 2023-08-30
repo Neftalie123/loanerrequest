@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_theme">
+    <sp_theme action="INSERT_OR_UPDATE">
+        <css_variables>/*VEHICLE TRACKER BRAND COLORS*/&#13;
+$brand-primary:#18CAE5;&#13;
+$brand-secondary: #E35737;&#13;
+$brand-BrandWhite:#10879A;&#13;
+$brand-BrandBlack:#00000;&#13;
+&#13;
+/* ElEMENT SPECIFIC CSS*/&#13;
+$sp-tagline-color:#ffffff;&#13;
+$navbar-inverse-bg:#9dd1f4; &#13;
+$navbar_background-color:#18CAE5;&#13;
+$sp-navbar-divider-color:#E35737; &#13;
+$navbar-inverse-link-color:#E35737;&#13;
+$navbar-inverse-link-hover-color:#ffffff;&#13;
+$body-bg:#fff;&#13;
+$panel-bg:#E35737;&#13;
+&#13;
+&#13;
+&#13;
+&#13;
+&#13;
+&#13;
+&#13;
+&#13;
+&#13;
+&#13;
+&#13;
+&#13;
+&#13;
+&#13;
+</css_variables>
+        <footer/>
+        <footer_fixed>false</footer_fixed>
+        <header display_value="Stock Header">bf5ec2f2cb10120000f8d856634c9c0c</header>
+        <name>Vehicle tracker Theme</name>
+        <navbar_fixed>true</navbar_fixed>
+        <sys_class_name>sp_theme</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-24 14:09:22</sys_created_on>
+        <sys_id>bdf619a097987110791bff36f053af55</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_name>Vehicle tracker Theme</sys_name>
+        <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_848642_loaner_0">84aafe80976b2110791bff36f053af21</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory">84aafe80976b2110791bff36f053af21</sys_scope>
+        <sys_update_name>sp_theme_bdf619a097987110791bff36f053af55</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-24 16:44:25</sys_updated_on>
+    </sp_theme>
+</record_update>

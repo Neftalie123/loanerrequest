@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_portal_search_source">
+    <m2m_sp_portal_search_source action="INSERT_OR_UPDATE">
+        <order>100</order>
+        <sp_portal display_value="Vehicle Request Portal ">99e32990971c3110791bff36f053afc6</sp_portal>
+        <sp_search_source display_value="Banner Content">1b56c8c0b3302300e64be12b86a8dc68</sp_search_source>
+        <sys_class_name>m2m_sp_portal_search_source</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-24 15:06:15</sys_created_on>
+        <sys_id>da04e1ec97987110791bff36f053afc3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Vehicle Request Portal .Banner Content</sys_name>
+        <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_848642_loaner_0">84aafe80976b2110791bff36f053af21</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory">84aafe80976b2110791bff36f053af21</sys_scope>
+        <sys_update_name>m2m_sp_portal_search_source_da04e1ec97987110791bff36f053afc3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-24 15:06:15</sys_updated_on>
+    </m2m_sp_portal_search_source>
+</record_update>
